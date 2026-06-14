@@ -767,116 +767,53 @@
         // 示例数据
         const newsData = [
             {
-                id: 6,
-                date: '2026-06-13',
+                id: 1001,
+                date: '2026-06-14',
+                category: 'industry',
+                categoryName: '行业观察',
+                title: '金山云宣布AI算力产品涨价15%-50%，7月12日生效',
+                summary: '金山云官方公告，因全球AI算力需求攀升、硬件成本上涨，将对AI算力相关产品服务上调约15%-50%，文件存储相关产品上调约30%-50%。调整将于北京时间2026年7月12日生效。',
+                source: '金山云官方 / 东方财富网 / 第一财经',
+                sourceUrl: 'https://www.ksyun.com/ns/notice/detail/535',
+                tags: ['金山云', 'AI算力', '价格上涨', '云计算'],
+                detail: '金山云表示涨价原因是全球AI算力需求持续攀升、GPU等硬件采购成本上涨。存量订单在当前计费周期内不受影响，新价格将在下一个计费周期开始时适用。'
+            },
+            {
+                id: 1002,
+                date: '2026-06-14',
                 category: 'ai-model',
                 categoryName: 'AI与大模型',
-                title: 'Microsoft Discovery Agentic AI平台正式商业可用',
-                summary: '微软在Build 2026大会上宣布Microsoft Discovery平台正式GA，面向科学研究和复杂问题解决，利用专业AI Agent挖掘研究资料、生成假设、运行模拟并持续迭代优化结果。',
-                source: 'Microsoft Azure Blog',
-                sourceUrl: 'https://azure.microsoft.com/en-us/blog/3-things-leaders-need-to-know-from-microsoft-build-2026/',
-                tags: ['Microsoft', 'Discovery', 'Agentic AI', 'Azure', 'Build 2026'],
-                detail: 'Microsoft Discovery平台利用专业AI Agent进行科学研究和复杂问题解决，可压缩原本需要数年的研究周期。平台集成Azure云基础设施，支持多Agent协作和自动化工作流。'
+                title: '华为发布开源盘古openPangu 2.0，支持512K上下文',
+                summary: '华为在HDC 2026开发者大会上正式发布开源盘古openPangu 2.0，采用稀疏MoE架构，支持512K超长上下文窗口，分为Pro（505B参数）和Flash（92B参数）两个版本。',
+                source: 'IT之家 / 网易 / 快科技',
+                sourceUrl: 'https://www.ithome.com/0/963/480.htm',
+                tags: ['华为', '盘古', 'openPangu', '开源大模型', 'HDC 2026'],
+                detail: 'openPangu 2.0计划从6月30日起陆续开源7大组件。余承东表示将带领盘古大模型从中国第一走向世界第一。'
             },
             {
-                id: 7,
-                date: '2026-06-13',
-                category: 'big-data',
-                categoryName: '大数据',
-                title: 'Google Cloud Apache Spark托管服务重大升级：Lightning Engine全面开放',
-                summary: 'Google Cloud发布Apache Spark托管服务重大更新，Lightning Engine正式全面开放。该C++向量化执行引擎可将Spark查询性能提升最高4.9倍，价格性能提升最高2倍。',
-                source: 'WTGuru',
-                sourceUrl: 'https://wtguru.com/news/21376/google-cloud-enhances-managed-service-for-apache-spark-clusters',
-                tags: ['Google Cloud', 'Spark', 'Dataproc', 'Lightning Engine', '大数据'],
-                detail: 'Lightning Engine无需修改现有代码即可提升性能4.9倍，同时提供更好的价格性能比。新增Flexible VMs功能允许用户为集群配置多优先级机器类型，改善Spot VM容量利用率。'
-            },
-            {
-                id: 8,
-                date: '2026-06-13',
-                category: 'ai-model',
-                categoryName: 'AI与大模型',
-                title: 'Snowflake推出Cortex Sense与Claude集成，强化Agentic Enterprise能力',
-                summary: 'Snowflake在Summit 2026上推出Cortex Sense上下文层，将Claude模型直接集成到数据平台。Cortex Sense可自动学习企业特定的语言、业务规则和流程，准确率从24%提升至83%。',
-                source: 'CDO Magazine',
-                sourceUrl: 'https://www.cdomagazine.tech/aiml/snowflake-launches-new-tools-to-help-enterprises-deploy-agentic-ai',
-                tags: ['Snowflake', 'Cortex', 'Claude', 'Anthropic', 'Agentic AI'],
-                detail: 'Cortex Sense作为企业记忆层，自动学习组织特定的概念和流程。Claude集成允许在Snowflake平台内直接进行AI分析，无需将数据移出数据仓库，提升数据治理和隐私保护。'
-            },
-            {
-                id: 9,
-                date: '2026-06-13',
-                category: 'ai-model',
-                categoryName: 'AI与大模型',
-                title: '腾讯云TokenHub平台下调大模型价格，最高降幅超60%',
-                summary: '腾讯云TokenHub平台宣布下调MiniMax-M3与Hy-MT2-Pro模型价格。MiniMax-M3输入/输出及缓存命中费用下调50%，Hy-MT2-Pro输入价格下调66.67%、输出价格下调55.56%。',
-                source: 'C114通信网',
-                sourceUrl: 'https://www.c114pro.com/cloudnews/171274.html',
-                tags: ['腾讯云', 'TokenHub', 'MiniMax', '大模型', '价格战'],
-                detail: '此次调价延续了国内大模型降价趋势。Hy-MT2-Pro于6月12日起生效，MiniMax-M3于6月15日起生效。随着Token价格下降，大模型调用量持续上升。'
-            },
-            {
-                id: 1,
-                date: '2026-06-12',
-                category: 'cloud-vendor',
-                categoryName: '云厂商动态',
-                title: '腾讯云DatabaseClaw数据库AI服务正式商业化',
-                summary: '腾讯云宣布DatabaseClaw将于6月19日正式开启商业化计费，推出体验版（免费）和企业版（付费）以满足不同规模业务需求。',
-                source: '腾讯云官方',
-                sourceUrl: 'https://cloud.tencent.com/document/product/1813/130681',
-                tags: ['腾讯云', 'DatabaseClaw', '数据库', 'AI服务'],
-                detail: 'DatabaseClaw是腾讯云推出的数据库AI服务，能够自动优化数据库查询、预测性能瓶颈并提供智能运维建议。商业化后，企业版将提供更高级的AI功能和专属技术支持。'
-            },
-            {
-                id: 2,
-                date: '2026-06-12',
-                category: 'ai-model',
-                categoryName: 'AI与大模型',
-                title: 'OpenAI GPT-5.5和Codex正式登陆Amazon Bedrock',
-                summary: 'OpenAI宣布GPT-5.5和Codex模型正式在Amazon Bedrock上线，提供企业级治理集成，用户可在US East区域使用这些模型构建生成式AI应用。',
-                source: 'AWS官方',
-                sourceUrl: 'https://aws.amazon.com/about-aws/whats-new/2026/06/openai-gpt-us-east-virginia-amazon/',
-                tags: ['OpenAI', 'GPT-5.5', 'Codex', 'Amazon Bedrock', 'AWS'],
-                detail: 'AWS VP Swami Sivasubramanian确认GPT-5.5已在Amazon Bedrock原生可用，支持企业级安全和合规控制。Codex的集成使开发者能够更便捷地在AWS环境中构建AI驱动的应用程序。'
-            },
-            {
-                id: 3,
-                date: '2026-06-12',
+                id: 1003,
+                date: '2026-06-14',
                 category: 'cloud-native',
                 categoryName: '云原生',
-                title: '阿里云发布Meoo CLI开源命令行工具',
-                summary: '阿里云发布Meoo CLI开源命令行工具，瞄准本地AI编程项目上线繁琐的痛点，支持Claude Code、Codex、Cursor等主流本地AI编程助手。',
-                source: 'IT之家',
-                sourceUrl: 'https://www.ithome.com/0/963/037.htm',
-                tags: ['阿里云', 'Meoo CLI', '命令行', 'AI编程', '开源'],
-                detail: 'Meoo CLI可调用阿里云云端能力，将本地AI编程项目快速部署上线，打通Vibe Coding最后一公里。该工具安装简便，支持一键部署到阿里云多种计算服务。'
+                title: 'Google Cloud推出Fluid Compute自适应基础设施，Axion N4A正式可用',
+                summary: 'Google Cloud在Next 26大会上推出Fluid Compute，旨在同时支持通用工作负载和AI任务。该基础设施基于GKE和新的Agent Sandbox。Axion N4A正式可用，相比最新x86 VM成本效益提升2倍。',
+                source: 'WTGuru / Cloud-Ace / Noah News',
+                sourceUrl: 'https://wtguru.com/news/18151/google-cloud-introduces-fluid-compute-for-enhanced-ai-and-general-workloads',
+                tags: ['Google Cloud', 'Fluid Compute', 'Axion', 'GKE', '云原生'],
+                detail: 'GKE同时推出Standby Buffers功能，解决传统自动扩缩容的冷启动延迟问题。该功能可维护低成本的暂停容量，触发时比启动新节点快2-3倍。'
             },
             {
-                id: 4,
-                date: '2026-06-12',
-                category: 'cloud-vendor',
-                categoryName: '云厂商动态',
-                title: 'AWS多项云服务功能更新',
-                summary: 'AWS发布多项服务更新：Elastic Beanstalk控制台集成CloudWatch Logs，Amazon MWAA新增EventBridge通知支持，Amazon Managed Service for Prometheus支持Native Histograms。',
-                source: 'Daily AWS',
-                sourceUrl: 'https://www.daily-aws.com/headlines/20260611/',
-                tags: ['AWS', 'Elastic Beanstalk', 'CloudWatch', 'MWAA', 'Prometheus'],
-                detail: '此次更新进一步简化了运维流程：CloudWatch Logs集成让日志查看更便捷；EventBridge通知提升了工作流编排能力；Native Histograms则为监控数据提供了更高效的存储方式。'
-            },
-            {
-                id: 5,
-                date: '2026-06-12',
-                category: 'cloud-vendor',
-                categoryName: '云厂商动态',
-                title: 'Azure NC RTX PRO 6000系列虚拟机正式商业可用',
-                summary: '微软Azure宣布NC RTX PRO 6000 Blackwell Server Edition v6系列虚拟机正式GA，配备NVIDIA RTX PRO 6000 Blackwell GPU，每块GPU搭载96GB GDDR7显存。',
-                source: 'Azure官方',
-                sourceUrl: 'https://azure.microsoft.com/en-us/updates',
-                tags: ['Azure', 'RTX PRO 6000', 'GPU', 'NVIDIA', 'Blackwell'],
-                detail: '该系列虚拟机搭载Intel Xeon 6 Granite Rapids 6900P系列CPU，可支持前沿图形和生成式AI计算工作负载，为需要高性能GPU的企业提供了更多选择。'
-            }
-        ];
-
-        let currentCategory = 'all';
+                id: 1004,
+                date: '2026-06-14',
+                category: 'big-data',
+                categoryName: '大数据',
+                title: 'Databricks推出OpenSharing开放协议，Managed DR进入公测',
+                summary: 'Databricks发布OpenSharing协议，这是Delta Sharing协议的下一代演进，成为Linux Foundation项目，是首个覆盖Agent技能、AI模型和非结构化数据的开放协议。',
+                source: 'Microsoft Learn / Channel Drive / Databricks官方',
+                sourceUrl: 'https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2026/june',
+                tags: ['Databricks', 'OpenSharing', 'Delta Sharing', '大数据', 'DR'],
+                detail: 'OpenSharing支持Apache Iceberg IRC客户端。Managed DR可将Unity Catalog元数据、托管表数据和workspace资产复制到次区域。'
+            },        ]; = 'all';
 
         // 初始化
         document.addEventListener('DOMContentLoaded', () => {
