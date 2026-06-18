@@ -767,139 +767,30 @@
         // 示例数据
         const newsData = [
             {
-                id: 1011,
-                date: '2026-06-16',
-                category: 'ai-model',
-                categoryName: 'AI与大模型',
-                title: '阿里云QoderWork上线"意识"功能：集成记忆、反思与技能进化三大模块',
-                summary: '阿里云桌面AI助理QoderWork正式上线"意识"功能，集成记忆、反思与技能进化三大模块。该功能可主动整理和淘汰冗余信息，并将高频任务沉淀为可复用的技能。',
-                source: 'IT之家 / 凤凰网 / 新浪财经',
-                sourceUrl: 'https://www.ithome.com/0/964/777.htm',
-                tags: ['阿里云', 'QoderWork', 'AI助理', '智能体', '记忆系统'],
-                detail: 'QoderWork的记忆系统采用分层结构：日常对话先沉淀到短期记忆，跨会话有价值的内容晋升到长期记忆。反思机制借鉴人脑选择性遗忘的方式，每次反思前先做快照备份，反思后通过硬规则做后校验，一旦越界自动回滚，避免误删关键信息。'
-            },
-
-            {
-                id: 1006,
-                date: '2026-06-15',
-                category: 'ai-model',
-                categoryName: 'AI与大模型',
-                title: 'AI价格战持续：中国开源模型受全球青睐，OpenAI和Anthropic面临降价压力',
-                summary: '据《华尔街日报》报道，越来越多企业转向更便宜的开源模型，中国DeepSeek在Vercel平台份额从4月1%飙升至5月17%，OpenRouter调用量持续第一。OpenAI CEO奥特曼坦言成本已成"大问题"，OpenAI正考虑大幅降价。',
-                source: '华尔街日报 / 环球网 / 智东西',
-                sourceUrl: 'http://m.toutiao.com/group/7651389771130683956/',
-                tags: ['AI价格战', 'DeepSeek', '开源模型', 'OpenAI', 'Anthropic'],
-                detail: '超过500家机构已从专有模型切换到开源模型。部分企业通过混合模式（日常任务用开源、复杂任务用闭源）在特定场景降低95%成本。OpenAI和Anthropic均已提交IPO文件，价格战可能扩大亏损。'
-            },
-            {
-                id: 1007,
-                date: '2026-06-13',
-                category: 'ai-model',
-                categoryName: 'AI与大模型',
-                title: '智谱宣布GLM-5.2全量开放：最强开源模型，支持1M上下文',
-                summary: '6月13日智谱宣布GLM-5.2面向全量用户开放，覆盖Lite、Pro、Max及团队版。GLM-5.2是智谱迄今最强开源模型，支持真正可用的1M上下文，长程Coding任务领先。API预计下周上线，模型也将于下周开源。',
-                source: '澎湃新闻 / 凤凰网',
-                sourceUrl: 'https://news.ifeng.com/c/8tvbD59iZkc',
-                tags: ['智谱', 'GLM-5.2', '开源大模型', '1M上下文', '国产大模型'],
-                detail: '智谱在公告中表示："在海外前沿模型突然变得不可用的时刻，我们选择相信另一条路：前沿智能不应只属于少数人，也不应被少数规则随时收回。"此前Anthropic旗舰模型被美国政府要求紧急下线。'
-            },
-            {
-                id: 1008,
-                date: '2026-06-13',
-                category: 'ai-model',
-                categoryName: 'AI与大模型',
-                title: 'Anthropic旗舰模型Claude Fable 5和Mythos 5被美国政府要求紧急下线',
-                summary: '6月12日Anthropic收到美国政府紧急信函，要求立即切断所有非美籍用户对Claude Fable 5和Mythos 5的访问权限。这两款刚发布不到72小时的旗舰级模型，被迫在全球范围内对非美籍用户全面停用。',
-                source: '澎湃新闻 / 凤凰网 / IT之家',
-                sourceUrl: 'https://news.ifeng.com/c/8tvbD59iZkc',
-                tags: ['Anthropic', 'Claude', '出口管制', 'AI监管', '美国'],
-                detail: '美国政府援引国家安全部门指示发布出口管制指令，要求Anthropic立即切断所有外国国民——包括在美国境内的非美籍员工——的访问权限。Anthropic表示政府决定建立在"严重误解"之上。'
-            },
-            {
-                id: 1009,
-                date: '2026-06-12',
-                category: 'ai-model',
-                categoryName: 'AI与大模型',
-                title: '科大讯飞发布星火多模态大模型X2-VL，唯一基于全国产算力训练',
-                summary: '科大讯飞在2026长三角机器人及自动化展览会上发布星火多模态大模型X2-VL，采用专属MoE架构，从训练之初就主打多模态能力，是当前唯一基于全国产算力训练的主流大模型。',
-                source: '第一财经 / 财联社 / 无锡发布',
-                sourceUrl: 'https://m.yicai.com/brief/103228780.html',
-                tags: ['科大讯飞', '星火X2-VL', '多模态', '国产算力', 'MoE'],
-                detail: 'X2-VL能看图片、读文档、分析图表、理解画面内容，将为无锡具身智能产业搭载硬核"AI大脑"。这是国产算力训练主流大模型的又一突破。'
-            },
-            {
-                id: 1010,
-                date: '2026-06-12',
-                category: 'ai-model',
-                categoryName: 'AI与大模型',
-                title: '腾讯云大幅下调MiniMax-M3与Hy-MT2-Pro模型价格，最高降幅66.67%',
-                summary: '腾讯云TokenHub宣布下调MiniMax-M3模型价格，推理输入输出及缓存命中均降50%；Hy-MT2-Pro输入降价66.67%、输出降价55.56%。此前DeepSeek-V4系列最高降幅已达97.5%。',
-                source: '21世纪经济报道 / 凤凰网 / 每日经济新闻',
-                sourceUrl: 'https://news.ifeng.com/c/8ttqPJ6jxVp',
-                tags: ['腾讯云', 'TokenHub', '大模型降价', 'MiniMax', 'AI价格战'],
-                detail: '大模型行业呈现K型分化：阿里云通义千问、字节豆包等通用模型纷纷降价换量；智谱GLM、腾讯混元等聚焦企业定制的高端模型价格稳定甚至小幅上调，形成"通用走量、高端溢价"新态势。'
-            },
-            {
-                id: 1005,
-                date: '2026-06-15',
+                id: 1013,
+                date: '2026-06-17',
                 category: 'cloud-vendor',
                 categoryName: '云厂商动态',
-                title: '讯灵智能与腾讯云达成战略合作，深耕AI营销与智能办公',
-                summary: '深圳市讯灵智能与腾讯云正式签署战略合作协议，双方将围绕技术底座共建、AI营销一体化方案、智能办公协同、行业生态与标准建设四大领域展开深度协作，融合云计算、大模型、语音识别、AI智能体等前沿技术。',
-                source: '腾讯新闻 / IT之家 / C114通信网',
-                sourceUrl: 'https://www.ithome.com/0/963/909.htm',
-                tags: ['腾讯云', '战略合作', 'AI营销', '智能办公'],
-                detail: '双方将充分融合云计算、大模型、语音识别、AI智能体等前沿技术，赋能中小企业全域数字化转型。'
+                title: '华为发布面向金融行业的鲲鹏超节点TaiShan 950 SuperPoD，搭载灵衢互联协议',
+                summary: '华为在中国国际金融展发布面向金融行业的鲲鹏超节点TaiShan 950 SuperPoD，搭载灵衢互联协议，支持百纳秒级超低时延、TB级超大带宽和内存池化能力，已与多家银行、证券机构展开合作。',
+                source: '证券日报网 / 科创板日报 / 中华网',
+                sourceUrl: 'http://m.zqrb.cn/gscy/qiyexinxi/2026-06-17/A1781692801412.html',
+                tags: ['华为', '鲲鹏', '金融', '超节点', '灵衢互联', 'Agentic AI'],
+                detail: '华为鲲鹏超节点依托灵衢互联协议，通过统一协议打破计算(CPU/NPU)与存储(SSD/内存)等部件间的通信壁垒。已与多家银行、证券机构展开合作，共同探索超节点在金融场景中的应用。'
             },
             {
-                id: 1001,
-                date: '2026-06-14',
-                category: 'industry',
-                categoryName: '行业观察',
-                title: '金山云宣布AI算力产品涨价15%-50%，7月12日生效',
-                summary: '金山云官方公告，因全球AI算力需求攀升、硬件成本上涨，将对AI算力相关产品服务上调约15%-50%，文件存储相关产品上调约30%-50%。调整将于北京时间2026年7月12日生效。',
-                source: '金山云官方 / 东方财富网 / 第一财经',
-                sourceUrl: 'https://www.ksyun.com/ns/notice/detail/535',
-                tags: ['金山云', 'AI算力', '价格上涨', '云计算'],
-                detail: '金山云表示涨价原因是全球AI算力需求持续攀升、GPU等硬件采购成本上涨。存量订单在当前计费周期内不受影响，新价格将在下一个计费周期开始时适用。'
+                id: 1012,
+                date: '2026-06-17',
+                category: 'cloud-vendor',
+                categoryName: '云厂商动态',
+                title: '阿里云巴黎、柔佛地域正式开服，全球布局升至32个地域105个可用区',
+                summary: '阿里云在VivaTech大会宣布法国巴黎、马来西亚柔佛两个新地域正式开服，同时扩建日本东京和墨西哥数据中心。柔佛新地域上线后，马来西亚数据中心总数达5座，成为东南亚最大部署；巴黎成为欧洲第三个枢纽。',
+                source: '36氪 / 上海证券报 / 虎嗅',
+                sourceUrl: 'https://36kr.com/newsflashes/3856947104076803',
+                tags: ['阿里云', 'VivaTech', '数据中心', '全球化', '东南亚', '欧洲'],
+                detail: '本轮扩张完成后，阿里云全球布局升至32个地域、105个可用区。巴黎新地域成为阿里云继德国、英国之后在欧洲的第三个枢纽，柔佛新地域则使马来西亚数据中心总数达到5座。'
             },
-            {
-                id: 1002,
-                date: '2026-06-14',
-                category: 'ai-model',
-                categoryName: 'AI与大模型',
-                title: '华为发布开源盘古openPangu 2.0，支持512K上下文',
-                summary: '华为在HDC 2026开发者大会上正式发布开源盘古openPangu 2.0，采用稀疏MoE架构，支持512K超长上下文窗口，分为Pro（505B参数）和Flash（92B参数）两个版本。',
-                source: 'IT之家 / 网易 / 快科技',
-                sourceUrl: 'https://www.ithome.com/0/963/480.htm',
-                tags: ['华为', '盘古', 'openPangu', '开源大模型', 'HDC 2026'],
-                detail: 'openPangu 2.0计划从6月30日起陆续开源7大组件。余承东表示将带领盘古大模型从中国第一走向世界第一。'
-            },
-            {
-                id: 1003,
-                date: '2026-06-14',
-                category: 'cloud-native',
-                categoryName: '云原生',
-                title: 'Google Cloud推出Fluid Compute自适应基础设施，Axion N4A正式可用',
-                summary: 'Google Cloud在Next 26大会上推出Fluid Compute，旨在同时支持通用工作负载和AI任务。该基础设施基于GKE和新的Agent Sandbox。Axion N4A正式可用，相比最新x86 VM成本效益提升2倍。',
-                source: 'WTGuru / Cloud-Ace / Noah News',
-                sourceUrl: 'https://wtguru.com/news/18151/google-cloud-introduces-fluid-compute-for-enhanced-ai-and-general-workloads',
-                tags: ['Google Cloud', 'Fluid Compute', 'Axion', 'GKE', '云原生'],
-                detail: 'GKE同时推出Standby Buffers功能，解决传统自动扩缩容的冷启动延迟问题。该功能可维护低成本的暂停容量，触发时比启动新节点快2-3倍。'
-            },
-            {
-                id: 1004,
-                date: '2026-06-14',
-                category: 'big-data',
-                categoryName: '大数据',
-                title: 'Databricks推出OpenSharing开放协议，Managed DR进入公测',
-                summary: 'Databricks发布OpenSharing协议，这是Delta Sharing协议的下一代演进，成为Linux Foundation项目，是首个覆盖Agent技能、AI模型和非结构化数据的开放协议。',
-                source: 'Microsoft Learn / Channel Drive / Databricks官方',
-                sourceUrl: 'https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2026/june',
-                tags: ['Databricks', 'OpenSharing', 'Delta Sharing', '大数据', 'DR'],
-                detail: 'OpenSharing支持Apache Iceberg IRC客户端。Managed DR可将Unity Catalog元数据、托管表数据和workspace资产复制到次区域。'
-            }
-        ];
+];
 
         let currentCategory = 'all';
 
