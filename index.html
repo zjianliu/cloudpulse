@@ -766,30 +766,61 @@
     <script>
         // 示例数据
         const newsData = [
-            {
-                id: 1013,
-                date: '2026-06-17',
-                category: 'cloud-vendor',
-                categoryName: '云厂商动态',
-                title: '华为发布面向金融行业的鲲鹏超节点TaiShan 950 SuperPoD，搭载灵衢互联协议',
-                summary: '华为在中国国际金融展发布面向金融行业的鲲鹏超节点TaiShan 950 SuperPoD，搭载灵衢互联协议，支持百纳秒级超低时延、TB级超大带宽和内存池化能力，已与多家银行、证券机构展开合作。',
-                source: '证券日报网 / 科创板日报 / 中华网',
-                sourceUrl: 'http://m.zqrb.cn/gscy/qiyexinxi/2026-06-17/A1781692801412.html',
-                tags: ['华为', '鲲鹏', '金融', '超节点', '灵衢互联', 'Agentic AI'],
-                detail: '华为鲲鹏超节点依托灵衢互联协议，通过统一协议打破计算(CPU/NPU)与存储(SSD/内存)等部件间的通信壁垒。已与多家银行、证券机构展开合作，共同探索超节点在金融场景中的应用。'
-            },
-            {
-                id: 1012,
-                date: '2026-06-17',
-                category: 'cloud-vendor',
-                categoryName: '云厂商动态',
-                title: '阿里云巴黎、柔佛地域正式开服，全球布局升至32个地域105个可用区',
-                summary: '阿里云在VivaTech大会宣布法国巴黎、马来西亚柔佛两个新地域正式开服，同时扩建日本东京和墨西哥数据中心。柔佛新地域上线后，马来西亚数据中心总数达5座，成为东南亚最大部署；巴黎成为欧洲第三个枢纽。',
-                source: '36氪 / 上海证券报 / 虎嗅',
-                sourceUrl: 'https://36kr.com/newsflashes/3856947104076803',
-                tags: ['阿里云', 'VivaTech', '数据中心', '全球化', '东南亚', '欧洲'],
-                detail: '本轮扩张完成后，阿里云全球布局升至32个地域、105个可用区。巴黎新地域成为阿里云继德国、英国之后在欧洲的第三个枢纽，柔佛新地域则使马来西亚数据中心总数达到5座。'
-            },
+        {
+                "id": 1016,
+                "date": "2026-06-19",
+                "category": "industry",
+                "categoryName": "行业观察",
+                "title": "亚马逊洽谈向第三方数据中心销售自研Trainium AI芯片",
+                "summary": "亚马逊正洽谈向其他企业的数据中心直接销售自研Trainium AI芯片，标志着其在挑战英伟达AI芯片市场主导地位方面迈出实质性一步。AWS CEO安迪·贾西表示这是战略重点，第三代Trainium芯片已接近售罄，第四代产品预计明年推出。",
+                "source": "东方财富网 / 证券之星 / 新浪财经",
+                "sourceUrl": "https://finance.eastmoney.com/a/202606183776566489.html",
+                "tags": [
+                        "AWS",
+                        "Trainium",
+                        "AI芯片",
+                        "英伟达",
+                        "亚马逊"
+                ],
+                "detail": "亚马逊AI业务负责人Peter DeSantis在巴黎接受采访时证实，公司已与部分企业启动洽谈。通过Outposts服务租赁或直接销售自研芯片，亚马逊正在构建更广泛的AI基础设施生态。"
+        },
+        {
+                "id": 1015,
+                "date": "2026-06-19",
+                "category": "ai-model",
+                "categoryName": "AI与大模型",
+                "title": "AWS与Odyssey达成战略合作，成为其首选云服务商",
+                "summary": "世界模型初创公司Odyssey完成3.1亿美元B轮融资，由Natural Capital领投，亚马逊、英伟达、AMD Ventures、GV等机构跟投。伴随融资，AWS同时宣布成为Odyssey的首选云服务提供商，并将提供Trainium芯片定制优化服务。",
+                "source": "36氪 / 腾讯新闻 / 新浪",
+                "sourceUrl": "https://36kr.com/p/3858479782138886",
+                "tags": [
+                        "AWS",
+                        "Odyssey",
+                        "世界模型",
+                        "Trainium",
+                        "AI基础设施"
+                ],
+                "detail": "Odyssey由自动驾驶领域先驱Oliver Cameron与CTO Jeff Hawke联合创立。本轮融资后估值达14.5亿美元，正式跻身独角兽行列。AWS将通过Trainium芯片和云服务支持其世界模型研发。"
+        },
+        {
+                "id": 1014,
+                "date": "2026-06-19",
+                "category": "industry",
+                "categoryName": "行业观察",
+                "title": "云天畅想完成超10亿元E轮融资，发布实时智算织网战略",
+                "summary": "全球头部边缘智算企业云天畅想宣布完成超10亿元人民币E轮融资，由中国互联网投资基金领投，中金资本等机构联合投资。此轮融资后，云天畅想正式开启面向AGI时代的「实时智算织网」战略布局。",
+                "source": "新浪财经 / 东方财富网 / 商道创投网",
+                "sourceUrl": "https://finance.sina.com.cn/stock/bxjj/2026-06-18/doc-inicuupx3347963.shtml",
+                "tags": [
+                        "融资",
+                        "边缘计算",
+                        "智算",
+                        "GPU",
+                        "AI基础设施",
+                        "中网投"
+                ],
+                "detail": "公司长期深耕GPU-centric分布式智算网络建设，构建覆盖全球300多个城市的边缘智算网络，服务用户超6亿。本轮资金将用于实时智算织网技术研发与全球算力网络拓展。"
+        }
 ];
 
         let currentCategory = 'all';
