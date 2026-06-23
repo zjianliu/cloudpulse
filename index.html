@@ -767,6 +767,96 @@
         // 示例数据
         const newsData = [
             {
+                        "id": 1031,
+                        "date": "2026-06-22",
+                        "category": "cloud-native",
+                        "categoryName": "云原生",
+                        "title": "英伟达官宣Vera Rubin平台全面采用45℃全液冷散热，AI数据中心散热架构迎来颠覆",
+                        "summary": "英伟达6月21日通过官方博客完整披露下一代Vera Rubin AI服务器核心散热技术——全球首个100%全液冷AI计算平台，采用45℃高温液冷方案，PUE可降至1.05，2026年秋季量产出货。",
+                        "source": "英伟达官方博客 / 科创板日报 / 上海证券报",
+                        "sourceUrl": "https://developer.nvidia.com/blog",
+                        "tags": [
+                                    "英伟达",
+                                    "Vera Rubin",
+                                    "液冷",
+                                    "数据中心",
+                                    "AI基础设施"
+                        ],
+                        "detail": "Vera Rubin平台单GPU功耗高达2300W，单机柜功耗突破200kW，传统风冷极限仅40-60kW，液冷从可选项变为硬性标配。45℃冷却液方案使设施冷却用水量从传统每年约260万加仑/兆瓦降至接近零，冷却系统耗电占数据中心40%，该方案将显著降低云厂商运营成本。全球云厂商新建算力中心必须适配该液冷架构。"
+            },
+            {
+                        "id": 1032,
+                        "date": "2026-06-22",
+                        "category": "industry",
+                        "categoryName": "行业观察",
+                        "title": "微软与雪佛龙达成20年70亿美元供电协议，天然气直供AI数据中心",
+                        "summary": "雪佛龙与微软签署为期20年的电力供应协议，将利用二叠纪盆地天然气就地发电，为微软得州Kilby项目数据中心供电，装机容量2.67吉瓦，预计2028年投运。",
+                        "source": "IT之家 / 新浪财经 / 华尔街见闻",
+                        "sourceUrl": "http://m.toutiao.com/group/7654203499458183706/",
+                        "tags": [
+                                    "微软",
+                                    "雪佛龙",
+                                    "数据中心",
+                                    "天然气发电",
+                                    "AI能源"
+                        ],
+                        "detail": "项目采用\"表后发电\"模式，自备电厂不入电网，利用二叠纪盆地负气价天然气发电，成本优势显著。微软今年资本支出计划1900亿美元，同比增61%。该模式为AI数据中心供电瓶颈提供了可复制模板，AI基础设施竞争从\"抢GPU\"延伸至\"抢电力\"。"
+            },
+            {
+                        "id": 1033,
+                        "date": "2026-06-22",
+                        "category": "industry",
+                        "categoryName": "行业观察",
+                        "title": "美光与Anthropic达成战略合作，锁定AI存储长期供应并战略投资H轮融资",
+                        "summary": "美光科技与Anthropic达成战略合作，涵盖HBM/DRAM/SSD长期供应协议、联合AI存储架构研发、美光全面引入Claude，以及美光对Anthropic H轮融资的战略投资。",
+                        "source": "IT之家 / 东方财富 / 36氪",
+                        "sourceUrl": "https://www.ithome.com/0/967/223.htm",
+                        "tags": [
+                                    "美光",
+                                    "Anthropic",
+                                    "HBM",
+                                    "AI存储",
+                                    "战略合作"
+                        ],
+                        "detail": "双方将联合研究HBM、DRAM及SSD在AI训练和推理场景中的应用，优化AI基础设施性能、能效和成本结构。美光为Anthropic预留专属HBM产能配额，在全球HBM产能紧缺背景下锁定关键硬件供给。美光当天收涨6.82%创历史新高，高带宽内存正成为继GPU之后AI基础设施竞争的新焦点。"
+            },
+            {
+                        "id": 1034,
+                        "date": "2026-06-17",
+                        "category": "ai-model",
+                        "categoryName": "AI与大模型",
+                        "title": "智谱GLM-5.2开源上线，Day0适配8大国产算力平台实现\"国芯跑国模\"",
+                        "summary": "智谱开源新一代旗舰模型GLM-5.2，支持100万token上下文，Code Arena盲测全球可用模型第一。上线首日完成华为昇腾、平头哥、摩尔线程等8大国产算力平台Day0适配，采用MIT协议开放商用。",
+                        "source": "新京报 / 太平洋科技 / 搜狐",
+                        "sourceUrl": "http://m.toutiao.com/group/7654071945562784297/",
+                        "tags": [
+                                    "智谱",
+                                    "GLM-5.2",
+                                    "华为昇腾",
+                                    "国产算力",
+                                    "开源大模型"
+                        ],
+                        "detail": "Anthropic Fable 5被禁用后，智谱迅速全量开放GLM-5.2作为替代。马斯克评论中国大模型\"可能在明年一季度\"追上顶尖水平，智谱首席科学家唐杰回应\"用不了这么久\"。智谱股价连续7天上涨，6月22日市值突破1万亿港元，成为港股首只万亿AI大模型公司。"
+            },
+            {
+                        "id": 1035,
+                        "date": "2026-06-16",
+                        "category": "cloud-vendor",
+                        "categoryName": "云厂商动态",
+                        "title": "微软Copilot Cowork正式GA并转向按量计费，考虑引入DeepSeek V4降本",
+                        "summary": "微软Copilot Cowork智能体AI正式GA，超90%财富500强已在用。微软宣布从固定费率转向按Token消耗计费，同时考虑引入DeepSeek V4微调版作为低成本替代，综合成本可降逾九成。",
+                        "source": "Microsoft官方博客 / 36氪 / TechCrunch",
+                        "sourceUrl": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/",
+                        "tags": [
+                                    "微软",
+                                    "Copilot Cowork",
+                                    "DeepSeek",
+                                    "AI智能体",
+                                    "云服务"
+                        ],
+                        "detail": "Copilot Cowork深度集成M365全套办公套件，通过Work IQ实现全局上下文存储和调用。微软高管坦言有用户每周执行数百项任务导致成本过高。DeepSeek V4 Flash定价较Anthropic同类模型低20-50倍，美国企业市场DeepSeek使用份额从4月的1%跃升至5月的17%。"
+            },
+            {
                         "id": 1029,
                         "date": "2026-06-22",
                         "category": "cloud-vendor",
