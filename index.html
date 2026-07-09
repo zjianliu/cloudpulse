@@ -766,6 +766,44 @@
     <script>
         // 示例数据
         const newsData = [
+    
+    {
+        "id": 1083,
+        "date": "2026-07-08",
+        "category": "cloud-vendor",
+        "categoryName": "云厂商动态",
+        "title": "AWS与华纳兄弟探索推出代理AI广告平台，重构线性电视与数字广告流程",
+        "summary": "AWS与华纳兄弟探索公司宣布联合推出基于AWS Agentic AI的新一代广告技术平台，采用多个自主AI代理重构广告规划、投放和优化流程，实现美国线性电视与数字平台广告的统一管理。",
+        "source": "AWS官方新闻/网易科技/PPC Land",
+        "sourceUrl": "https://press.aboutamazon.com/aws/2026/7/warner-bros-discovery-announces-agentic-ai-powered-advertising-technology-built-on-aws-its-preferred-cloud-provider",
+        "tags": [
+            "AWS",
+            "WBD",
+            "Agentic AI",
+            "广告平台",
+            "云厂商"
+        ],
+        "detail": "该平台采用多个自主AI代理，负责媒体规划、受众预测、实时优化及闭环成效衡量。WBD将于Q3推出统一媒体规划功能，Q4逐步推出组合订单管理、定价及管理功能。底层采用Amazon Bedrock AgentCore等技术。"
+    },
+    {
+        "id": 1082,
+        "date": "2026-07-08",
+        "category": "cloud-vendor",
+        "categoryName": "云厂商动态",
+        "title": "Google Cloud在印度本地部署Gemini AI模型，满足数据主权合规需求",
+        "summary": "Google Cloud CEO Thomas Kurian确认，公司正在印度本地基础设施部署最新Gemini AI模型，允许企业将数据和AI处理均保留在印度境内，标志着印度作为Google战略AI中心的定位。",
+        "source": "Economic Times/Startup Feed/Zoom News",
+        "sourceUrl": "https://m.economictimes.com/news/company/corporate-trends/google-cloud-plants-its-ai-flag-in-india-gemini-local-hosting-data-sovereignty-what-it-means-for-the-country/amp_articleshow/132257905.cms",
+        "tags": [
+            "Google Cloud",
+            "Gemini",
+            "印度",
+            "数据主权",
+            "云厂商"
+        ],
+        "detail": "这一举措标志着印度作为Google战略AI中心的定位，满足本地企业数据主权和合规需求。印度企业现可将AI数据和计算全部保留在境内，无需将敏感数据传输出境。"
+    }
+,
     "id": 1081
     "date": "2026-07-07"
     "category": "industry"
@@ -902,6 +940,7 @@
                     };
                     
                     const category = categoryMap[tag.textContent];
+];
                     if (category) {
                         const tabs = document.querySelectorAll('.nav-tab');
                         tabs.forEach(t => t.classList.remove('active'));
