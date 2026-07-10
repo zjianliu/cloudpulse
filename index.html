@@ -766,7 +766,42 @@
     <script>
         // 示例数据
         const newsData = [
-    
+    {
+        "id": 1085,
+        "date": "2026-07-10",
+        "category": "ai-model",
+        "categoryName": "AI与大模型",
+        "title": "AWS Bedrock AgentCore发布多项新能力，包括Web Search工具、三大知识层和AG-UI协议支持",
+        "summary": "AWS在纽约峰会上更新Amazon Bedrock AgentCore平台，新增AgentCore Web Search工具、三大知识层升级（组织知识、世界知识、付费知识）及AG-UI协议支持，标志AWS Agentic AI平台能力进一步扩展。",
+        "source": "AWS官方博客/CRN/AWSInsider",
+        "sourceUrl": "https://aws.amazon.com/blogs/?language=en_US",
+        "tags": [
+            "AWS",
+            "Bedrock",
+            "AgentCore",
+            "AI Agent",
+            "云厂商"
+        ],
+        "detail": "AgentCore Web Search允许Agent无需额外基础设施即可从网络获取实时信息；三大知识层使AI Agent能够整合企业私有数据、公共信息和第三方付费数据源；AG-UI协议支持通过SSE或WebSocket实现实时用户体验。"
+    },
+    {
+        "id": 1084,
+        "date": "2026-07-09",
+        "category": "cloud-vendor",
+        "categoryName": "云厂商动态",
+        "title": "腾讯云发布Agent Bucket，为亿级AI智能体提供原生独立云端存储空间",
+        "summary": "腾讯云正式发布Agent Bucket（智能体桶），这是业内首款面向AI智能体场景的原生存储服务，可为亿级AI Agent提供独立云端存储空间，统一管理用户资料及Agent生成的图片、代码、报告等各类文件。",
+        "source": "IT之家/驱动中国/PChome/凤凰网科技",
+        "sourceUrl": "https://www.ithome.com/0/974/504.htm",
+        "tags": [
+            "腾讯云",
+            "Agent Bucket",
+            "AI存储",
+            "云原生",
+            "AI Agent"
+        ],
+        "detail": "Agent Bucket以Space为独立空间单元，每个Agent或用户拥有独立Space，具备独立访问凭证、容量配额和读写限速。产品内置网盘级全套文件能力，支持文件秒传去重、类本地文件操作、多模态内容检索，搭配GooseFS分布式缓存加速实现高性能存储。"
+    },
     {
         "id": 1083,
         "date": "2026-07-08",
@@ -802,20 +837,230 @@
             "云厂商"
         ],
         "detail": "这一举措标志着印度作为Google战略AI中心的定位，满足本地企业数据主权和合规需求。印度企业现可将AI数据和计算全部保留在境内，无需将敏感数据传输出境。"
+    },
+    {
+        "id": 1081,
+        "date": "2026-07-07",
+        "category": "industry",
+        "categoryName": "行业观察",
+        "title": "英伟达支持的Nscale获9亿美元循环信贷，加速全球AI数据中心扩建",
+        "summary": "英伟达支持的英国AI基础设施公司Nscale于7月7日宣布获得9亿美元循环信贷额度，将用于加快在欧洲、美国及亚太地区的数据中心建设。该公司由摩根大通、高盛等12家国际银行提供融资支持。",
+        "source": "City A.M./Nscale官方/Perplexity AI",
+        "sourceUrl": "https://www.cityam.com/nscale-taps-lenders-for-900m-to-fuel-ai-data-centre-splurge/",
+        "tags": [
+            "Nscale",
+            "英伟达",
+            "数据中心",
+            "融资",
+            "AI基础设施"
+        ],
+        "detail": "Nscale今年早些时候已完成20亿美元融资，估值达146亿美元，并在5月获得7.9亿美元融资用于扩建挪威AI数据中心，计划部署超过3万颗英伟达Rubin系列AI处理器。"
+    },
+    {
+        "id": 1079,
+        "date": "2026-07-06",
+        "category": "ai-model",
+        "categoryName": "AI与大模型",
+        "title": "腾讯混元Hy3正式发布，性能比肩旗舰开源模型日均Token消耗增20倍",
+        "summary": "腾讯混元Hy3正式发布，展现强于同尺寸模型且比肩旗舰开源模型的智能水平。自preview上线以来，日均Token消耗量增加了20倍。目前已在WorkBuddy、CodeBuddy、元宝等多个业务接入。",
+        "source": "36氪/财联社/证券时报",
+        "sourceUrl": "https://36kr.com/newsflashes/3883833442430979",
+        "tags": [
+            "腾讯云",
+            "混元",
+            "Hy3",
+            "大模型",
+            "AI"
+        ],
+        "detail": "腾讯混元Hy3已在WorkBuddy、CodeBuddy、元宝、ima等多个业务接入，API已在腾讯云TokenHub上线，多个海外API平台也将陆续接入。定价进一步降低，总体稳定性和性价比大幅提升。"
+    },
+    {
+        "id": 1078,
+        "date": "2026-07-06",
+        "category": "industry",
+        "categoryName": "行业观察",
+        "title": "Meta算力租赁首次落地印度，与信实工业合作建设168兆瓦数据中心",
+        "summary": "Meta与印度信实工业达成合作，将在古吉拉特邦联合建设一座168兆瓦数据中心，为印度银行、医疗、保险等监管行业提供本地化AI部署服务。这是Meta Compute算力租赁计划的首个重要落地项目。",
+        "source": "每日经济新闻/36氪/澎湃新闻",
+        "sourceUrl": "https://www.nbd.com.cn/articles/2026-07-07/3749866.html",
+        "tags": [
+            "Meta",
+            "信实工业",
+            "数据中心",
+            "印度",
+            "算力租赁",
+            "Meta Compute"
+        ],
+        "detail": "Meta-信实联盟的数据主权价值在于为印度企业构建合规的AI应用路径。以银行业为例，孟买银行可在贾姆讷格尔数据中心精调开源模型，无需将个人金融数据传输出境。"
+    },
+    {
+        "id": 1077,
+        "date": "2026-07-05",
+        "category": "industry",
+        "categoryName": "行业观察",
+        "title": "Anthropic计划在澳大利亚采购至少1.4GW数据中心算力，建设成本达150亿美元",
+        "summary": "Anthropic计划在澳大利亚锁定至少1.4GW数据中心算力，基础设施建设成本预计达150亿美元，规模远超市场此前预期。Anthropic已于今年4月与澳大利亚政府签署谅解备忘录，目标是在2027年底前实现至少1GW算力投入使用。",
+        "source": "IT之家/东方财富网/网易",
+        "sourceUrl": "https://www.ithome.com/0/972/774.htm",
+        "tags": [
+            "Anthropic",
+            "澳大利亚",
+            "数据中心",
+            "算力",
+            "1.4GW",
+            "AI基础设施"
+        ],
+        "detail": "据澳大利亚金融评论报披露的内部招标书，Anthropic的目标是在2027年底前实现至少1GW算力投入使用。1.4GW的体量已接近澳大利亚现有数据中心运营容量的总和，DC Byte报告显示截至2025年Q4澳大利亚数据中心IT容量为1.4GW，预计2030年增至3.1-3.2GW。"
+    },
+    {
+        "id": 1076,
+        "date": "2026-07-03",
+        "category": "ai-model",
+        "categoryName": "AI与大模型",
+        "title": "腾讯云DeepSeek-V4正式版计划7月中上线，引入“原厂直供”+峰谷定价机制",
+        "summary": "7月3日，腾讯云发布公告，宣布DeepSeek-V4正式版【原厂直供】模型计划于2026年7月中在大模型服务平台TokenHub和智能体开发平台正式上线，并同步引入峰谷定价机制。",
+        "source": "IT之家/界面新闻/第一财经",
+        "sourceUrl": "https://www.ithome.com/0/972/437.htm",
+        "tags": [
+            "腾讯云",
+            "DeepSeek",
+            "V4",
+            "峰谷定价",
+            "TokenHub",
+            "AI模型"
+        ],
+        "detail": "高峰时段定义为每日9:00至12:00和14:00至18:00（北京时间），高峰时段价格翻倍。本次调整涉及DeepSeek-V4-Pro和DeepSeek-V4-Flash两个版本。"
+    },
+    {
+        "id": 1074,
+        "date": "2026-07-02",
+        "category": "cloud-vendor",
+        "categoryName": "云厂商动态",
+        "title": "Together AI完成8亿美元C轮融资，估值达83亿美元，沙特阿美领投英伟达跟投",
+        "summary": "AI基础设施与云服务平台Together AI于7月2日宣布完成8亿美元C轮融资，由沙特阿美Ventures领投，Vista Equity Partners、General Catalyst、英伟达等跟投，估值达83亿美元。本轮融资后年度预订收入突破11.5亿美元。",
+        "source": "电子工程专辑/36氪/搜狐",
+        "sourceUrl": "https://www.eet-china.com/mp/a506910.html",
+        "tags": [
+            "Together AI",
+            "融资",
+            "英伟达",
+            "GPU",
+            "云计算",
+            "AI基础设施",
+            "沙特阿美"
+        ],
+        "detail": "Together AI成立于2022年，主营英伟达GPU集群及AI专属算力基础设施租赁业务，面向企业用户提供开源大模型调用服务。本轮融资由Aramco Ventures领投，Vista Equity Partners、General Catalyst、Emergence Capital、NVIDIA、March Capital、Pegatron、SentinelOne旗下S Ventures跟投。"
+    },
+    {
+        "id": 1075,
+        "date": "2026-07-03",
+        "category": "ai-model",
+        "categoryName": "AI与大模型",
+        "title": "阿里云Databridge Agent将于8月1日正式商业化计费",
+        "summary": "阿里云官网于7月3日宣布，AI原生数据库服务产品Databridge Agent将于2026年8月1日正式转商业化计费，面向企业用户提供数据库智能连接、语义理解与自动化查询能力。",
+        "source": "界面新闻/DoNews/网易",
+        "sourceUrl": "https://m.jiemian.com/article/14693066.html",
+        "tags": [
+            "阿里云",
+            "Databridge",
+            "AI数据库",
+            "商业化",
+            "云原生"
+        ],
+        "detail": "收费模式按实际调用量阶梯计费，新用户可享首月免费试用。该产品面向企业用户，提供数据库智能连接、语义理解与自动化查询能力，将结束此前邀测免费阶段，进入正式商业化运营。"
+    },
+    {
+        "id": 1072,
+        "date": "2026-07-01",
+        "category": "industry",
+        "categoryName": "行业观察",
+        "title": "英伟达推出AI基础设施合作新模式，通过收入分成与云服务商共建AI工厂",
+        "summary": "英伟达宣布推出全新AI基础设施合作模式（DSX AI Factory），通过收入分成和信用支持机制与AI云服务商共建大规模多租户AI工厂，首批合作伙伴为Sharon AI和Firmus，标志着英伟达从单纯销售GPU转向与下游云厂商深度绑定经营收益。",
+        "source": "东方财富·财富号/凤凰网/网易",
+        "sourceUrl": "https://caifuhao.eastmoney.com/news/20260702152618564872800",
+        "tags": [
+            "英伟达",
+            "AI基础设施",
+            "云计算",
+            "收入分成",
+            "DSX AI Factory",
+            "Sharon AI",
+            "Firmus"
+        ],
+        "detail": "英伟达将采用收入分成+信贷兜底模式，面向新兴AI云服务商开放全套算力硬件与技术体系。合作云厂商将部署基于Grace Blackwell GB系列芯片的AI工厂，对外提供大模型训练、推理和Token调用等云服务。若云厂商无法找到足够AI开发者租用算力，英伟达将按约定价格回购未租出的GPU产能，并从合作云厂商营收中抽取固定比例分成。"
+    },
+    {
+        "id": 1073,
+        "date": "2026-07-02",
+        "category": "cloud-vendor",
+        "categoryName": "云厂商动态",
+        "title": "金山云加速GPU算力集群扩建，小米百亿预算落地阿里签5年长约",
+        "summary": "金山云下半年将加速GPU算力集群建设以满足头部客户爆发式增长需求。小米投入预算由近40亿元增至百亿元以上，阿里大模型团队签署5年期算力租赁合同涉及3000余台八卡GPU服务器，全部交付后年化收入超40亿元。",
+        "source": "每日经济新闻/和讯网/搜狐",
+        "sourceUrl": "https://m.nbd.com.cn/articles/2026-07-02/4446054.html",
+        "tags": [
+            "金山云",
+            "GPU",
+            "小米",
+            "阿里云",
+            "算力租赁",
+            "云计算"
+        ],
+        "detail": "金山云GPU算力目前仅接受3至5年长合约客户，1年期合约已暂停接单。原计划上半年交付给阿里的1500台八卡GPU服务器交付完成率不到三分之一。目前智谱、百川智能、MiniMax等大模型厂商每月可为金山云贡献约2亿流水。"
+    },
+    {
+        "id": 1067,
+        "date": "2026-06-30",
+        "category": "ai-model",
+        "categoryName": "AI与大模型",
+        "title": "Anthropic Claude全系列登陆微软Azure AI Foundry",
+        "summary": "Anthropic于6月29日宣布Claude全系列模型正式在微软Azure AI Foundry全面可用，企业用户可直接部署Claude Opus 4.8和Claude Haiku 4.5。",
+        "source": "36氪/虎嗅/界面新闻",
+        "sourceUrl": "https://36kr.com/newsflashes/3876296337354757",
+        "tags": [
+            "Claude",
+            "Anthropic",
+            "Azure AI Foundry",
+            "大模型"
+        ],
+        "detail": "底层算力由英伟达Blackwell Ultra GB300系列GPU提供支撑。用户可沿用现有Azure身份认证、计费及治理体系。"
+    },
+    {
+        "id": 1069,
+        "date": "2026-06-30",
+        "category": "cloud-vendor",
+        "categoryName": "云厂商动态",
+        "title": "中国移动设立集团级Token办公室推进算力商业化",
+        "summary": "中国移动于6月29日创立集团级Token专项办公室，这是半年内第三次围绕AI业务进行组织架构调整。",
+        "source": "财新/每日经济新闻/虎嗅",
+        "sourceUrl": "http://companies.caixin.com/m/2026-06-30/102459427.html",
+        "tags": [
+            "中国移动",
+            "Token",
+            "算力商业化",
+            "运营商"
+        ],
+        "detail": "该办公室将专职负责Token商业化、产品迭代、定价管控、渠道落地与合规服务。"
+    },
+    {
+        "id": 1065,
+        "date": "2026-06-30",
+        "category": "ai-model",
+        "categoryName": "AI与大模型",
+        "title": "英伟达Rubin Ultra芯片因封装难题大幅缩水，性能降至原设计一半",
+        "summary": "6月30日，SemiAnalysis报道英伟达原版4芯片Rubin Ultra在GTC 2026发布约三个月后因封装制造难题被迫大幅缩水，性能降至原设计一半。原版计划采用台积电CoWoS-L封装集成4颗计算芯片+16个HBM4E内存模块，但封装基板出现翘曲问题。",
+        "source": "华尔街见闻/TweakTown/Hard Forum",
+        "sourceUrl": "https://wallstreetcn.com/articles/0769999",
+        "tags": [
+            "英伟达",
+            "Rubin Ultra",
+            "CoWoS",
+            "HBM",
+            "封装"
+        ],
+        "detail": "原版Rubin Ultra计划将4颗计算芯片+16个HBM4E内存模块集成在单一封装内，但台积电CoWoS-L封装工艺遇到翘曲问题。SemiAnalysis指出英伟达市场份额正受到亚马逊Trainium、谷歌TPU及AMD芯片侵蚀，制造执行问题只会让更多市场份额流失。"
     }
-,
-    "id": 1081
-    "date": "2026-07-07"
-    "category": "industry"
-    "categoryName": "行业观察"
-    "title": "英伟达支持的Nscale获9亿美元循环信贷，加速全球AI数据中心扩建"
-    "summary": "英伟达支持的英国AI基础设施公司Nscale于7月7日宣布获得9亿美元循环信贷额度，将用于加快在欧洲、美国及亚太地区的数据中心建设。该公司由摩根大通、高盛等12家国际银行提供融资支持。"
-    "source": "City A.M./Nscale官方/Perplexity AI"
-    "sourceUrl": "https://www.cityam.com/nscale-taps-lenders-for-900m-to-fuel-ai-data-centre-splurge/"
-    "tags": ['Nscale', '英伟达', '数据中心', '融资', 'AI基础设施']
-    "detail": "Nscale今年早些时候已完成20亿美元融资，估值达146亿美元，并在5月获得7.9亿美元融资用于扩建挪威AI数据中心，计划部署超过3万颗英伟达Rubin系列AI处理器。"
-    }, {"id": 1079, "date": "2026-07-06", "category": "ai-model", "categoryName": "AI与大模型", "title": "腾讯混元Hy3正式发布，性能比肩旗舰开源模型日均Token消耗增20倍", "summary": "腾讯混元Hy3正式发布，展现强于同尺寸模型且比肩旗舰开源模型的智能水平。自preview上线以来，日均Token消耗量增加了20倍。目前已在WorkBuddy、CodeBuddy、元宝等多个业务接入。", "source": "36氪/财联社/证券时报", "sourceUrl": "https://36kr.com/newsflashes/3883833442430979", "tags": ["腾讯云", "混元", "Hy3", "大模型", "AI"], "detail": "腾讯混元Hy3已在WorkBuddy、CodeBuddy、元宝、ima等多个业务接入，API已在腾讯云TokenHub上线，多个海外API平台也将陆续接入。定价进一步降低，总体稳定性和性价比大幅提升。"}, {"id": 1078, "date": "2026-07-06", "category": "industry", "categoryName": "行业观察", "title": "Meta算力租赁首次落地印度，与信实工业合作建设168兆瓦数据中心", "summary": "Meta与印度信实工业达成合作，将在古吉拉特邦联合建设一座168兆瓦数据中心，为印度银行、医疗、保险等监管行业提供本地化AI部署服务。这是Meta Compute算力租赁计划的首个重要落地项目。", "source": "每日经济新闻/36氪/澎湃新闻", "sourceUrl": "https://www.nbd.com.cn/articles/2026-07-07/3749866.html", "tags": ["Meta", "信实工业", "数据中心", "印度", "算力租赁", "Meta Compute"], "detail": "Meta-信实联盟的数据主权价值在于为印度企业构建合规的AI应用路径。以银行业为例，孟买银行可在贾姆讷格尔数据中心精调开源模型，无需将个人金融数据传输出境。"}, {"id": 1077, "date": "2026-07-05", "category": "industry", "categoryName": "行业观察", "title": "Anthropic计划在澳大利亚采购至少1.4GW数据中心算力，建设成本达150亿美元", "summary": "Anthropic计划在澳大利亚锁定至少1.4GW数据中心算力，基础设施建设成本预计达150亿美元，规模远超市场此前预期。Anthropic已于今年4月与澳大利亚政府签署谅解备忘录，目标是在2027年底前实现至少1GW算力投入使用。", "source": "IT之家/东方财富网/网易", "sourceUrl": "https://www.ithome.com/0/972/774.htm", "tags": ["Anthropic", "澳大利亚", "数据中心", "算力", "1.4GW", "AI基础设施"], "detail": "据澳大利亚金融评论报披露的内部招标书，Anthropic的目标是在2027年底前实现至少1GW算力投入使用。1.4GW的体量已接近澳大利亚现有数据中心运营容量的总和，DC Byte报告显示截至2025年Q4澳大利亚数据中心IT容量为1.4GW，预计2030年增至3.1-3.2GW。"}, {"id": 1076, "date": "2026-07-03", "category": "ai-model", "categoryName": "AI与大模型", "title": "腾讯云DeepSeek-V4正式版计划7月中上线，引入“原厂直供”+峰谷定价机制", "summary": "7月3日，腾讯云发布公告，宣布DeepSeek-V4正式版【原厂直供】模型计划于2026年7月中在大模型服务平台TokenHub和智能体开发平台正式上线，并同步引入峰谷定价机制。", "source": "IT之家/界面新闻/第一财经", "sourceUrl": "https://www.ithome.com/0/972/437.htm", "tags": ["腾讯云", "DeepSeek", "V4", "峰谷定价", "TokenHub", "AI模型"], "detail": "高峰时段定义为每日9:00至12:00和14:00至18:00（北京时间），高峰时段价格翻倍。本次调整涉及DeepSeek-V4-Pro和DeepSeek-V4-Flash两个版本。"}, {"id": 1074, "date": "2026-07-02", "category": "cloud-vendor", "categoryName": "云厂商动态", "title": "Together AI完成8亿美元C轮融资，估值达83亿美元，沙特阿美领投英伟达跟投", "summary": "AI基础设施与云服务平台Together AI于7月2日宣布完成8亿美元C轮融资，由沙特阿美Ventures领投，Vista Equity Partners、General Catalyst、英伟达等跟投，估值达83亿美元。本轮融资后年度预订收入突破11.5亿美元。", "source": "电子工程专辑/36氪/搜狐", "sourceUrl": "https://www.eet-china.com/mp/a506910.html", "tags": ["Together AI", "融资", "英伟达", "GPU", "云计算", "AI基础设施", "沙特阿美"], "detail": "Together AI成立于2022年，主营英伟达GPU集群及AI专属算力基础设施租赁业务，面向企业用户提供开源大模型调用服务。本轮融资由Aramco Ventures领投，Vista Equity Partners、General Catalyst、Emergence Capital、NVIDIA、March Capital、Pegatron、SentinelOne旗下S Ventures跟投。"}, {"id": 1075, "date": "2026-07-03", "category": "ai-model", "categoryName": "AI与大模型", "title": "阿里云Databridge Agent将于8月1日正式商业化计费", "summary": "阿里云官网于7月3日宣布，AI原生数据库服务产品Databridge Agent将于2026年8月1日正式转商业化计费，面向企业用户提供数据库智能连接、语义理解与自动化查询能力。", "source": "界面新闻/DoNews/网易", "sourceUrl": "https://m.jiemian.com/article/14693066.html", "tags": ["阿里云", "Databridge", "AI数据库", "商业化", "云原生"], "detail": "收费模式按实际调用量阶梯计费，新用户可享首月免费试用。该产品面向企业用户，提供数据库智能连接、语义理解与自动化查询能力，将结束此前邀测免费阶段，进入正式商业化运营。"}, {"id": 1072, "date": "2026-07-01", "category": "industry", "categoryName": "行业观察", "title": "英伟达推出AI基础设施合作新模式，通过收入分成与云服务商共建AI工厂", "summary": "英伟达宣布推出全新AI基础设施合作模式（DSX AI Factory），通过收入分成和信用支持机制与AI云服务商共建大规模多租户AI工厂，首批合作伙伴为Sharon AI和Firmus，标志着英伟达从单纯销售GPU转向与下游云厂商深度绑定经营收益。", "source": "东方财富·财富号/凤凰网/网易", "sourceUrl": "https://caifuhao.eastmoney.com/news/20260702152618564872800", "tags": ["英伟达", "AI基础设施", "云计算", "收入分成", "DSX AI Factory", "Sharon AI", "Firmus"], "detail": "英伟达将采用收入分成+信贷兜底模式，面向新兴AI云服务商开放全套算力硬件与技术体系。合作云厂商将部署基于Grace Blackwell GB系列芯片的AI工厂，对外提供大模型训练、推理和Token调用等云服务。若云厂商无法找到足够AI开发者租用算力，英伟达将按约定价格回购未租出的GPU产能，并从合作云厂商营收中抽取固定比例分成，分成比例随合同推进逐年下调。首批签约合作伙伴Sharon AI计划最多部署4万块英伟达最新AI加速芯片。英伟达官方发言人已向媒体证实该合作项目属实。"}, {"id": 1073, "date": "2026-07-02", "category": "cloud-vendor", "categoryName": "云厂商动态", "title": "金山云加速GPU算力集群扩建，小米百亿预算落地阿里签5年长约", "summary": "金山云下半年将加速GPU算力集群建设以满足头部客户爆发式增长需求。小米投入预算由近40亿元增至百亿元以上，阿里大模型团队签署5年期算力租赁合同涉及3000余台八卡GPU服务器，全部交付后年化收入超40亿元。", "source": "每日经济新闻/和讯网/搜狐", "sourceUrl": "https://m.nbd.com.cn/articles/2026-07-02/4446054.html", "tags": ["金山云", "GPU", "小米", "阿里云", "算力租赁", "云计算"], "detail": "金山云GPU算力目前仅接受3至5年长合约客户，1年期合约已暂停接单。原计划上半年交付给阿里的1500台八卡GPU服务器交付完成率不到三分之一，与小米等客户的订单也面临交付延迟。目前智谱、百川智能、MiniMax等大模型厂商每月可为金山云贡献约2亿流水。金山云2026年目标营收125亿至135亿元。"}, {"id": 1067, "date": "2026-06-30", "category": "ai-model", "categoryName": "AI与大模型", "title": "Anthropic Claude全系列登陆微软Azure AI Foundry", "summary": "Anthropic于6月29日宣布Claude全系列模型正式在微软Azure AI Foundry全面可用，企业用户可直接部署Claude Opus 4.8和Claude Haiku 4.5。", "source": "36氪/虎嗅/界面新闻", "sourceUrl": "https://36kr.com/newsflashes/3876296337354757", "tags": ["Claude", "Anthropic", "Azure AI Foundry", "大模型"], "detail": "底层算力由英伟达Blackwell Ultra GB300系列GPU提供支撑。用户可沿用现有Azure身份认证、计费及治理体系。"}, {"id": 1069, "date": "2026-06-30", "category": "cloud-vendor", "categoryName": "云厂商动态", "title": "中国移动设立集团级Token办公室推进算力商业化", "summary": "中国移动于6月29日创立集团级Token专项办公室，这是半年内第三次围绕AI业务进行组织架构调整。", "source": "财新/每日经济新闻/虎嗅", "sourceUrl": "http://companies.caixin.com/m/2026-06-30/102459427.html", "tags": ["中国移动", "Token", "算力商业化", "运营商"], "detail": "该办公室将专职负责Token商业化、产品迭代、定价管控、渠道落地与合规服务。"}, {"id": 1065, "date": "2026-06-30", "category": "ai-model", "categoryName": "AI与大模型", "title": "英伟达Rubin Ultra芯片因封装难题大幅缩水，性能降至原设计一半", "summary": "6月30日，SemiAnalysis报道英伟达原版4芯片Rubin Ultra在GTC 2026发布约三个月后因封装制造难题被迫大幅缩水，性能降至原设计一半。原版计划采用台积电CoWoS-L封装集成4颗计算芯片+16个HBM4E内存模块，但封装基板出现翘曲问题。英伟达正探索CoPoS新封装方案，预计2028年才能就绪。", "source": "华尔街见闻/TweakTown/Hard Forum", "sourceUrl": "https://wallstreetcn.com/articles/0769999", "tags": ["英伟达", "Rubin Ultra", "CoWoS", "HBM", "封装"], "detail": "原版Rubin Ultra计划将4颗计算芯片+16个HBM4E内存模块集成在单一封装内，但台积电CoWoS-L封装工艺遇到翘曲问题。SemiAnalysis指出英伟达市场份额正受到亚马逊Trainium、谷歌TPU及AMD芯片侵蚀，制造执行问题只会让更多市场份额流失。"}
-
+]
 
         let currentCategory = 'all';
 
