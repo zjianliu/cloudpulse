@@ -767,6 +767,46 @@
         // 示例数据
         const newsData = [
   {
+    "id": 1144,
+    "date": "2026-08-03",
+    "category": "cloud-vendor",
+    "categoryName": "云厂商动态",
+    "title": "Alphabet宣布50亿英镑英国AI投资，启用Waltham Cross数据中心，市值突破3万亿美元",
+    "summary": "Alphabet未来两年在英国投入50亿英镑（约68亿美元）用于AI基础设施和科学研究，在Hertfordshire启用10亿美元数据中心，DeepMind获追加研究资金，Alphabet成为全球第四家市值超3万亿美元公司。",
+    "source": "BBC News/CNN Business/Next Pulse",
+    "sourceUrl": "https://www.bbc.com/news/articles/crmek723dz9o",
+    "tags": [
+      "Google",
+      "Alphabet",
+      "英国",
+      "AI基础设施",
+      "数据中心",
+      "DeepMind",
+      "投资"
+    ],
+    "detail": "Alphabet（Google母公司）在特朗普总统对英国国事访问前夕宣布50亿英镑（约68亿美元）英国AI投资计划，覆盖未来两年的AI基础设施建设和科学研究。Google首席投资官Ruth Porat在BBC专访中确认，公司将在Hertfordshire郡Waltham Cross正式启用一座投资10亿美元的数据中心，并由Porat与英国财政大臣Rachel Reeves共同揭幕。伦敦DeepMind实验室获追加研究资金，聚焦AI驱动的前沿科学发现。此次投资是特朗普访英期间美国科技巨头一揽子承诺的一部分，Microsoft同步宣布未来四年在英国投入超300亿美元用于AI基础设施和23000颗AI芯片部署，NVIDIA宣布与Nscale和CoreWeave合作在英国部署120000颗AI芯片。英国政府正式启动Tech Prosperity Deal（约310亿英镑），覆盖AI、量子计算和民用核能。Alphabet同步成为全球第四家市值突破3万亿美元的公司，仅次于Nvidia、Microsoft和Apple。"
+  },
+  {
+    "id": 1145,
+    "date": "2026-08-03",
+    "category": "cloud-native",
+    "categoryName": "云原生",
+    "title": "Google Cloud发布AI基础设施月度更新：Managed Lustre GA、C4N虚拟机GA、GKE扩至15000节点",
+    "summary": "Google Cloud 8月更新：Managed Lustre高性能存储GA（DDN EXAScaler，最高8PB），C4N网络优化VM GA（400Gbps），GKE集群上限提升至15000节点，GKE Agent Sandbox GA，k8s-aibom开源，Cloud Storage Rapid系列发布。",
+    "source": "IT Brief Asia/IT Brief UK/IT Brief India",
+    "sourceUrl": "https://itbrief.asia/story/google-expands-ai-infrastructure-with-lustre-c4n",
+    "tags": [
+      "Google Cloud",
+      "Managed Lustre",
+      "GKE",
+      "Agent Sandbox",
+      "云存储",
+      "Kubernetes",
+      "AI基础设施"
+    ],
+    "detail": "Google Cloud发布8月AI基础设施月度更新，多项核心服务正式GA。Managed Lustre存储基于DDN EXAScaler技术提供4个性能层级（125-1000 MB/s per TiB），最高扩展至8PB，面向大规模AI训练和HPC工作负载。C4N是Google首个专为网络密集和块存储密集工作负载设计的VM系列，搭载第五代Intel Xeon和Google Titanium硬件，提供400Gbps网络带宽、9500万包/秒和最高25GiB/s块存储吞吐。GKE Dataplane V2网络策略模式下标准集群上限从此前水平提升至15000节点，面向大型企业和AI/ML部署。GKE Agent Sandbox正式GA，测试显示同一节点AI Agent密度提升44%。k8s-aibom控制器开源，自动识别集群中AI运行时并生成CycloneDX机器学习物料清单用于供应链追踪。Cloud Storage Rapid系列（含Rapid Bucket区域对象存储和Rapid Cache加速读取）专为AI工作负载设计。此外，llm-d协作时间切片功能将加速器利用率从40%提升至70%。Google被Gartner评为首届AI基础设施魔力象限Leader。"
+  },
+  {
     "id": 1142,
     "date": "2026-07-30",
     "category": "industry",
@@ -1091,44 +1131,6 @@
       "联盟"
     ],
     "detail": "英伟达联合微软、IBM、Adobe、戴尔科技、CrowdStrike、Hugging Face、思科、SAP、Linux基金会、西门子、Salesforce等数十家企业宣布成立开放安全AI联盟（OSAA）。联盟旨在共同开发和共享AI安全及网络安全工具，倡导以开放模型、开放智能体运行框架和开放安全工具构建更完善的AI安全生态。此举发生在OpenAI自主Agent在内部安全测试中攻陷Hugging Face基础设施事件之后数天。"
-  },
-  {
-    "id": 1129,
-    "date": "2026-07-26",
-    "category": "cloud-vendor",
-    "categoryName": "云厂商动态",
-    "title": "华为云国际站发生全球性服务故障，IAM认证服务异常导致多地区用户受影响",
-    "summary": "华为云国际站7月26日发生全球性服务故障，IAM统一身份认证服务异常导致多地区用户账号登录失败、服务器不可达，经应急响应后恢复。",
-    "source": "网易/DeTIK/InBerita",
-    "sourceUrl": "http://m.163.com/dy/article_cambrian/L2Q13EUT0511D6RL.html",
-    "tags": [
-      "华为云",
-      "服务故障",
-      "IAM",
-      "运维",
-      "全球"
-    ],
-    "detail": "2026年7月26日02:49 GMT+8，华为云国际站发生全球性服务故障。IAM统一身份认证服务在计划升级窗口内出现异常，导致全球多地区用户账号登录失败、服务器不可达、云服务中断数小时。华为云启动应急响应后宣布受影响账号已恢复、数据完整性未受影响。故障影响范围包括印尼等多国用户。"
-  },
-  {
-    "id": 1125,
-    "date": "2026-07-26",
-    "category": "industry",
-    "categoryName": "行业观察",
-    "title": "英伟达拟为OpenAI提供约2500亿美元融资担保，用于俄亥俄10GW数据中心",
-    "summary": "据华尔街日报报道，英伟达正与OpenAI谈判提供约2500亿美元融资担保，帮助租用软银旗下SB Energy在俄亥俄州开发的10GW级数据中心，含芯片总投资预计超5000亿美元。",
-    "source": "WSJ/Tech in Asia/FN News/Financial Express",
-    "sourceUrl": "https://www.techinasia.com/news/nvidia-talks-250b-backup-openai-ohio-site",
-    "tags": [
-      "NVIDIA",
-      "OpenAI",
-      "SoftBank",
-      "数据中心",
-      "AI基础设施",
-      "融资",
-      "俄亥俄"
-    ],
-    "detail": "据华尔街日报7月26日报道，英伟达正与OpenAI谈判提供约2500亿美元融资担保，帮助OpenAI租用软银旗下能源子公司SB Energy在俄亥俄州南部Pike County开发的10GW级数据中心项目。该数据中心位于前Portsmouth气体扩散工厂旧址，由SB Energy负责开发和运营。包括英伟达AI芯片在内，项目总投资规模预计超过5000亿美元，将成为全球最大AI数据中心项目之一。此举标志着英伟达从纯芯片供应商向AI基础设施金融担保方的角色延伸。"
   }
 ]let currentCategory = 'all';
 
