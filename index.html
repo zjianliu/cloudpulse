@@ -767,6 +767,64 @@
         // 示例数据
         const newsData = [
   {
+    "id": 1151,
+    "date": "2026-08-04",
+    "category": "industry",
+    "categoryName": "行业观察",
+    "title": "Anthropic签约100亿美元算力协议：AI云初创Volta Infra成立仅半年，挪威133MW数据中心部署Vera Rubin",
+    "summary": "Anthropic与Volta Infra Holdings签署100亿美元六年算力协议，Volta合作方Bitdeer在挪威建设133MW数据中心部署英伟达Vera Rubin芯片采用水力发电，Volta同步完成3亿美元融资估值24亿美元。",
+    "source": "Economic Times/The Next Web/Cryptopolitan",
+    "sourceUrl": "https://m.economictimes.com/tech/technology/anthropic-inks-10-billion-computing-deal-with-new-cloud-startup-volta-infra/articleshow/132860624.cms",
+    "tags": [
+      "Anthropic",
+      "Volta",
+      "Bitdeer",
+      "数据中心",
+      "Vera Rubin",
+      "AI基础设施",
+      "挪威"
+    ],
+    "detail": "Anthropic与云基础设施初创公司Volta Infra Holdings签署价值100亿美元、为期六年的算力采购协议。Volta成立于2026年初，由资产管理公司博枫前高管创办，成立仅半年即获此大单。Volta合作方、加密矿企Bitdeer Technologies在挪威蒂达尔建设133MW数据中心，部署英伟达最新Vera Rubin AI芯片，采用水力发电供能。容量交付分两阶段进行，分别targeting 2026年12月和2027年3月。与协议同步，Volta完成3亿美元融资由a16z领投，估值达24亿美元。Anthropic绕开AWS/Azure/GCP三大传统云厂商转向专业AI云供应商，反映前沿AI实验室算力需求已远超单一供应商能力。"
+  },
+  {
+    "id": 1152,
+    "date": "2026-08-05",
+    "category": "big-data",
+    "categoryName": "大数据",
+    "title": "AWS DynamoDB向量搜索正式GA：原生实时向量检索，单digit毫秒延迟支持万亿级规模",
+    "summary": "AWS宣布DynamoDB向量搜索GA，支持在DynamoDB中原生存储向量嵌入并运行实时相似度搜索，单digit毫秒延迟99%+召回率，支持万亿级向量规模，无需独立向量数据库。",
+    "source": "AWS官方/MajorDigest/Daily AWS",
+    "sourceUrl": "https://aws.amazon.com/blogs/aws/amazon-dynamodb-now-supports-real-time-vector-search-at-any-scale/",
+    "tags": [
+      "AWS",
+      "DynamoDB",
+      "向量搜索",
+      "AI",
+      "RAG",
+      "数据库"
+    ],
+    "detail": "AWS宣布Amazon DynamoDB向量搜索功能正式GA，开发者可在DynamoDB中直接存储向量嵌入并与业务数据一起运行实时相似度搜索，无需将数据复制到独立向量数据库。该功能支持单digit毫秒延迟和99%以上召回率，设计可支撑万亿级向量规模。这一更新消除了AI和Agent应用开发团队维护独立向量数据库的复杂性，直接服务于RAG和AI Agent应用场景。"
+  },
+  {
+    "id": 1153,
+    "date": "2026-08-05",
+    "category": "ai-model",
+    "categoryName": "AI与大模型",
+    "title": "Amazon Bedrock Web Search正式GA：为OpenAI模型提供内置实时网页搜索，数据零导出",
+    "summary": "Amazon Bedrock Web Search功能GA，为OpenAI模型提供内置服务端网页搜索工具，基于亚马逊数十亿文档索引进行语义片段提取，模型可在AWS环境内获取实时网络知识。",
+    "source": "AWS官方/HKU SPACE/Mesoclever",
+    "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/introducing-web-search-on-amazon-bedrock-for-foundation-model-grounding/",
+    "tags": [
+      "AWS",
+      "Bedrock",
+      "OpenAI",
+      "网页搜索",
+      "RAG",
+      "Agent"
+    ],
+    "detail": "Amazon Bedrock的Web Search功能正式GA，为OpenAI模型（GPT-5.4、GPT-5.5、GPT-5.6 Sol/Terra/Luna）提供内置服务端网页搜索工具。该工具基于亚马逊数十亿文档网页索引进行语义片段提取，模型可在AWS环境内获取实时网络知识，全程数据零导出。企业无需集成第三方搜索API或进行额外安全审查，即可让AI模型获取最新信息，进一步降低Agent应用场景的集成复杂度。"
+  },
+  {
     "id": 1147,
     "date": "2026-08-04",
     "category": "industry",
@@ -977,44 +1035,6 @@
     "detail": "据华尔街日报报道，数据中心开发商Nexus Data Centers正就服务Anthropic的得州Hubbard AI数据中心项目筹集约150亿美元进入最终谈判。园区配套1.6GW天然气自备电厂，由摩根士丹利牵头的银行集团讨论融资方案，含140亿美元过桥贷款和循环信贷额度。谷歌已同意为Anthropic数十亿美元租赁和电力支付义务提供担保，担保覆盖4份数据中心租赁协议及购电协议，作为回报谷歌获约20%项目股权。Anthropic计划在该数据中心部署谷歌与博通联合设计的TPU芯片。"
   },
   {
-    "id": 1139,
-    "date": "2026-07-29",
-    "category": "big-data",
-    "categoryName": "大数据",
-    "title": "Google Cloud发布Borderless Lakehouse，基于Iceberg实现跨云数据联邦查询",
-    "summary": "Google Cloud在Next Tokyo发布Borderless Lakehouse增强功能，基于Apache Iceberg实现跨云数据访问；推出目录联邦预览版支持AWS Glue/Databricks Unity/Snowflake Horizon互通。",
-    "source": "The Tech Street Now/IT Brief Asia/Matrice Digitale",
-    "sourceUrl": "https://thetechstreetnow.com/introducing-the-borderless-lakehouse/",
-    "tags": [
-      "Google Cloud",
-      "Lakehouse",
-      "Iceberg",
-      "跨云",
-      "数据联邦",
-      "BigQuery"
-    ],
-    "detail": "Google Cloud在Next Tokyo大会发布Borderless Lakehouse增强功能，基于开放Apache Iceberg格式，支持跨本地、AWS及多云运营系统和SaaS应用的数据查询，无需搬迁数据。同步推出目录联邦（Catalog Federation）预览版，支持AWS Glue、Databricks Unity和Snowflake Horizon三大外部目录互通。Gemini Enterprise和对话式Agent可直接分析跨云数据。此举标志着云数据平台从单云数据仓库向跨云数据联邦架构演进。"
-  },
-  {
-    "id": 1140,
-    "date": "2026-07-29",
-    "category": "cloud-native",
-    "categoryName": "云原生",
-    "title": "Snowflake发布Cortex AI Gateway，面向Agent时代的集中式AI治理控制面",
-    "summary": "Snowflake在Black Hat 2026发布Cortex AI Gateway，提供集中式AI Agent控制层，统一治理和监控Agent对模型、MCP服务器及内部系统的访问。",
-    "source": "ChannelDrive/Beri/DataNet Korea",
-    "sourceUrl": "https://channeldrive.in/innovation/snowflake-unveils-cortex-ai-gateway-to-drive-trusted-agentic-enterprise-era/",
-    "tags": [
-      "Snowflake",
-      "AI Agent",
-      "治理",
-      "MCP",
-      "Black Hat",
-      "安全"
-    ],
-    "detail": "Snowflake在Black Hat 2026大会正式发布Cortex AI Gateway，提供集中式AI Agent控制层。企业可统一连接、治理和监控AI智能体对模型、工具、MCP服务器及内部系统的访问权限和活动，支持MCP协议和Agent互操作性安全治理。该产品解决AI Agent访问企业数据的安全和成本管控问题，标志着云数据平台从数据存储层向Agent控制面演进。调查显示57%企业对AI Agent的管理员级访问权限缺乏准备。"
-  },
-  {
     "id": 1141,
     "date": "2026-07-30",
     "category": "industry",
@@ -1052,63 +1072,6 @@
       "Copilot"
     ],
     "detail": "微软公布截至2026年6月30日FY2026 Q4业绩：季度营收900亿美元同比增长18%，GAAP净利润同比增31%至357.66亿美元。Azure云业务同比增长43%（固定汇率），为2022年初以来最快季度增速，年化收入首次突破1000亿美元。Microsoft 365 Copilot付费用户超3000万。Q4资本支出410亿美元同比增70%。CEO Satya Nadella表示需求持续超越可用产能，下季度Azure增速指引约45%。全年营收3318亿美元同比增18%，运营利润超1550亿美元。商业剩余履约义务同比增84%至6780亿美元。"
-  },
-  {
-    "id": 1134,
-    "date": "2026-07-29",
-    "category": "ai-model",
-    "categoryName": "AI与大模型",
-    "title": "亚马逊关停Nova旗舰模型，重组AGI部门押注FMR前沿大模型",
-    "summary": "亚马逊逐步停止开发Nova Premier/Omni/Reel/Canvas等旗舰模型，关停AGI实验室，资源集中至Pieter Abbeel牵头的FMR项目，计划re:Invent 2026发布新模型。",
-    "source": "TheStreet/Futurism/Trending Topics",
-    "sourceUrl": "https://www.thestreet.com/technology/amazon-reshapes-ai-strategy-deprecating-aws-nova-premier-gemini-models",
-    "tags": [
-      "Amazon",
-      "AWS",
-      "Nova",
-      "FMR",
-      "AI模型",
-      "AGI",
-      "战略调整"
-    ],
-    "detail": "亚马逊大幅调整AI战略，逐步停止开发Nova系列旗舰模型，包括Premier、Omni、Reel视频和Canvas图像生成模型，进入KTLO（Keep the Lights On）维护状态。仅Nova 2 Lite/Sonic、Nova Forge和Nova Act继续开发。人力和算力集中至内部代号FMR（Frontier Model Research）新项目，由UC Berkeley教授Pieter Abbeel牵头（2024年收购Covariant加入），已定为AGI部门最高优先级。新模型计划2026秋季re:Invent亮相。AGI部门高管Rohit Prasad已离任，管理架构全面重塑。"
-  },
-  {
-    "id": 1135,
-    "date": "2026-07-29",
-    "category": "industry",
-    "categoryName": "行业观察",
-    "title": "AMD签署140亿美元Core Scientific数据中心租约，锁定529MW算力容量",
-    "summary": "AMD与Core Scientific签署15年期超140亿美元租约，锁定美国5处设施529MW AI数据中心容量，可扩展至2.5GW，用于部署Instinct GPU和EPYC CPU。",
-    "source": "Global1/C114/VendorDeep",
-    "sourceUrl": "https://global1.news/amd-just-paid-14-billion-to-a-bitcoin-miner-for-data-center-space-and-that-tells-you-everything-about-the-ai-infrastructure-market-gyc",
-    "tags": [
-      "AMD",
-      "Core Scientific",
-      "数据中心",
-      "AI基础设施",
-      "算力",
-      "租约"
-    ],
-    "detail": "AMD与Core Scientific（NASDAQ: CORZ）签署15年期基础设施合作协议，锁定超529MW美国AI数据中心容量，覆盖德州、奥克拉荷马州、阿拉巴马州和乔治亚州五处设施，基础合同收入超140亿美元。协议包含扩展期权可增至2.5GW。AMD直接承租约377MW，另有152MW由未具名云服务商承租（AMD提供信用担保）。2027年开始交付至2028年完成。这是AMD史上最大单笔基础设施投资，用于部署Instinct GPU、EPYC CPU和ROCm软件。Core Scientific总AI托管容量翻倍至超1GW。"
-  },
-  {
-    "id": 1136,
-    "date": "2026-07-29",
-    "category": "cloud-native",
-    "categoryName": "云原生",
-    "title": "Google Cloud推出AI服务费用上限和异常早期预警，原生成本管控工具上线",
-    "summary": "Google Cloud在Billing控制台推出Spend Caps和Early Anomaly Alerts两项AI成本管理工具，支持按项目设置月度消费上限并自动限制超支。",
-    "source": "CFO Tech Asia/The Tech Street Now/IT Brief",
-    "sourceUrl": "https://cfotech.asia/story/google-cloud-adds-ai-spend-caps-early-anomaly-alerts",
-    "tags": [
-      "Google Cloud",
-      "AI成本",
-      "Spend Caps",
-      "预算管理",
-      "异常预警"
-    ],
-    "detail": "Google Cloud在Billing控制台推出两项原生成本管理工具：Spend Caps允许用户按项目和维度设置月度消费上限，超支时自动限制该服务计费用量；Early Anomaly Alerts自动检测项目内AI服务每日成本异常波动，在账单生成前发出预警。两项工具目前为公开预览阶段。此举回应了企业对AI服务不可预测用量的成本焦虑。"
   }
 ]
  = 'all';
