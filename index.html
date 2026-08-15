@@ -768,48 +768,61 @@
         const newsData = [
   [
     [
-      {
-        "id": 1175,
-        "date": "2026-08-12",
-        "category": "cloud-vendor",
-        "categoryName": "云厂商动态",
-        "title": "AMD发布MI400系列GPU和Helios机架平台：获Anthropic/OpenAI/Meta超4GW容量承诺，打破NVIDIA垄断",
-        "summary": "AMD在Advancing AI 2026大会发布Instinct MI400系列（MI455X CDNA 5/台积电2nm/HBM4）和Helios开放机架平台，Anthropic承诺部署2GW，OpenAI和Meta各1GW。",
-        "source": "AMD官方/EE Times Asia/ServeTheHome/Benzinga/TopCPU",
-        "sourceUrl": "https://www.amd.com/en/blogs/2026/becoming-a-10x-productivity-engineer.html",
+[
+    {
+        "id": 1178,
+        "date": "2026-08-14",
+        "category": "industry",
+        "categoryName": "行业观察",
+        "title": "英伟达缩减OpenAI数据中心融资担保至1200亿美元以下：仅保第一阶段5GW",
+        "summary": "据WSJ报道英伟达将俄亥俄州10GW项目财务担保从2500亿缩至1200亿美元以下，仅对第一阶段5GW担保，缓解投资者风险担忧。",
+        "source": "Channel News Asia/CoinDesk/CoinPost",
+        "sourceUrl": "https://www.channelnewsasia.com/business/nvidia-scales-back-funding-guarantee-ohio-openai-data-center-wsj-reports-6320821",
         "tags": [
-          "AMD",
-          "MI455X",
-          "Helios",
-          "Anthropic",
-          "AI芯片",
-          "GPU",
-          "机架级",
-          "AI基础设施"
+            "NVIDIA",
+            "OpenAI",
+            "数据中心",
+            "融资担保",
+            "Stargate"
         ],
-        "detail": "AMD在Advancing AI 2026大会发布Instinct MI400系列GPU和Helios开放机架级AI基础设施平台。旗舰MI455X采用CDNA 5架构、台积电2nm GAAFET工艺，集成320亿晶体管，配备HBM4内存，设计为72-GPU机架单元。同步发布的MI430X面向主权AI和HPC场景，FP64算力达288 TFLOPS。客户承诺规模突出：Anthropic计划部署最多2GW MI450系列（Helios机架，首个GW 2027H1上线），OpenAI和Meta各承诺1GW，Microsoft和Oracle也采用Helios。AMD与Anthropic启动多年工程合作，使用Claude优化AMD GPU工作负载并加速ROCm开发。Helios 9月起向制造合作伙伴发货组件。"
-      },
-      {
-        "id": 1176,
+        "detail": "英伟达修改与OpenAI俄亥俄州10GW数据中心项目融资方案，担保从约2500亿缩减至1200亿美元以下，仅对第一阶段约5GW担保。因投资者对风险敞口担忧。项目由软银SB Energy开发，可能本周末签署。"
+    },
+    {
+        "id": 1180,
         "date": "2026-08-13",
         "category": "ai-model",
         "categoryName": "AI与大模型",
-        "title": "OpenAI联合Cerebras推出Ultrafast推理服务：GPT-5.6 Sol加速14倍，首次以Cerebras替代NVIDIA",
-        "summary": "OpenAI推出Ultrafast API服务层级，使用Cerebras芯片运行GPT-5.6 Sol，实现750 tokens/s、14倍标准模式速度，首次以Cerebras芯片提供商业化推理API。",
-        "source": "GlobeNewswire/OpenAI官方/凤凰科技/NotATechGuy",
-        "sourceUrl": "https://www.globenewswire.com/news-release/2026/08/13/3344804/0/en/cerebras-powers-ultrafast-mode-for-openai-s-gpt-5-6-sol.html",
+        "title": "Google发布Gemini 3.7 Flash：编码Agent能力提升，API价格下调50%",
+        "summary": "Google发布Gemini 3.7 Flash，编码推理Agent能力显著提升，API降价50%至年底（$0.75/$3.75 per M Token），Spark Agent同步升级。",
+        "source": "SiliconANGLE/Slashdot/Digital Trends",
+        "sourceUrl": "https://siliconangle.com/2026/08/13/google-launches-gemini-3-7-flash-coding-ai-agent-projects/",
         "tags": [
-          "OpenAI",
-          "Cerebras",
-          "Ultrafast",
-          "GPT-5.6",
-          "AI推理",
-          "API",
-          "推理加速"
+            "Google",
+            "Gemini",
+            "Flash",
+            "降价"
         ],
-        "detail": "OpenAI于8月13日推出Ultrafast API服务层级，使用Cerebras芯片（非NVIDIA GPU）运行GPT-5.6 Sol模型，实现最高750 output tokens/s、比标准模式快14倍的推理速度。该服务目前以有限预览方式面向API客户提供，主打延迟敏感的实时推理场景。这是OpenAI首次在商业化API层面大规模采用Cerebras替代NVIDIA GPU，标志着AI推理算力供应格局出现实质性变化。Ultrafast模式速度提升不牺牲输出质量，面向需要极低延迟的Agent和实时应用。"
-      },
-      {
+        "detail": "Google发布Gemini 3.7 Flash，编码、PDF理解和Agent能力提升。API降价50%至2026年底：$0.75/M输入、$3.75/M输出。Gemini Spark Agent同步升级。"
+    },
+    {
+        "id": 1179,
+        "date": "2026-08-13",
+        "category": "ai-model",
+        "categoryName": "AI与大模型",
+        "title": "阿里云正式开源Qwen3.8-2.4T旗舰模型：首个Max级别开放权重，同步开源27B",
+        "summary": "阿里云开源Qwen3.8-2.4T-A95B（2.4万亿参数/950亿激活），混合注意力架构，262K扩展至100万Token，同步开源27B。",
+        "source": "36氪/Warp2Search/Signal Digital",
+        "sourceUrl": "https://36kr.com/p/3937886846368898",
+        "tags": [
+            "阿里云",
+            "Qwen3.8",
+            "开源",
+            "MoE",
+            "2.4T"
+        ],
+        "detail": "阿里云8月13日开源Qwen3.8-2.4T-A95B，2.4万亿参数/950亿激活，Qwen首个Max级别开放权重。512专家MoE，混合注意力69层线性+23层全注意力，262K原生扩展至100万Token。同步开源Qwen3.8-27B。"
+    },
+    {
         "id": 1177,
         "date": "2026-08-13",
         "category": "industry",
@@ -819,57 +832,58 @@
         "source": "FT/TheNextWeb/EuropeanBusinessMag/央广网/ValueAddVC",
         "sourceUrl": "https://thenextweb.com/news/anthropic-ipo-2-trillion-october-revenue-multiple",
         "tags": [
-          "Anthropic",
-          "IPO",
-          "2万亿美元",
-          "Morgan Stanley",
-          "Goldman Sachs",
-          "Claude",
-          "AI资本市场"
+            "Anthropic",
+            "IPO",
+            "2万亿美元",
+            "Morgan Stanley",
+            "Goldman Sachs",
+            "Claude",
+            "AI资本市场"
         ],
         "detail": "据英国金融时报报道，Anthropic多位投资者透露公司预计最快10月启动IPO，估值有望达2万亿美元甚至更高，将超越SpaceX的1.77万亿美元纪录成为全球史上最大IPO。Morgan Stanley、Goldman Sachs和JPMorgan担任承销商。Anthropic已于6月向SEC秘密提交IPO文件，5月完成Series H融资650亿美元（估值9650亿美元），年化收入超470亿美元。作为AWS Bedrock等主流云平台的核心AI模型供应商，Anthropic的IPO将深刻影响AI算力投资格局和云计算行业竞争态势。"
-      },
-      {
-        "id": 1172,
-        "date": "2026-08-11",
-        "category": "cloud-vendor",
-        "categoryName": "云厂商动态",
-        "title": "OpenAI与AWS签署380亿美元7年AI云基础设施协议：数十万NVIDIA GPU，微软之外最大云算力扩展",
-        "summary": "OpenAI与AWS签署7年380亿美元协议，获取数十万NVIDIA GPU和数千万CPU用于AI训练和Agentic AI部署，首批算力目标2026年底前全部投入使用。",
-        "source": "AFP/TechShots/NextPulse/CoinStats",
-        "sourceUrl": "https://www.standardmedia.co.ke/health/health/article/2001533567/openai-signs-38-bn-infrastructure-deal-with-cloud-giant-aws",
-        "tags": [
-          "OpenAI",
-          "AWS",
-          "AI基础设施",
-          "NVIDIA",
-          "GPU",
-          "算力",
-          "云基础设施"
-        ],
-        "detail": "OpenAI与AWS签署7年380亿美元云基础设施协议，将获得数十万NVIDIA GPU和数千万CPU用于AI训练和Agentic AI部署。这是OpenAI在微软之外最大规模的云算力扩展，协议期内容量将持续增长，首批算力目标在2026年底前全部投入使用。Sam Altman表示：\"扩展前沿AI需要大规模、可靠的算力，与AWS的合作增强了驱动下一时代的广泛算力生态。\"该交易标志着AI巨头进一步分散云算力供应商风险，AWS在AI云基础设施市场的竞争力持续增强。"
-      },
-      {
-        "id": 1173,
-        "date": "2026-08-11",
+    },
+    {
+        "id": 1176,
+        "date": "2026-08-13",
         "category": "ai-model",
         "categoryName": "AI与大模型",
-        "title": "OpenAI Daybreak安全模型上线Amazon Bedrock：GPT-5.6-Cyber首次登陆主流云平台",
-        "summary": "OpenAI网络安全防御项目Daybreak扩展，Daybreak Red（含GPT-5.6-Cyber）和Daybreak Blue（含GPT-5.6 Sol）在Amazon Bedrock上向预批准安全机构客户开放。",
-        "source": "AWS官方/TechJournal/NeoDrop/TheLec",
-        "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/category/artificial-intelligence/amazon-machine-learning/amazon-bedrock/",
+        "title": "OpenAI联合Cerebras推出Ultrafast推理服务：GPT-5.6 Sol加速14倍，首次以Cerebras替代NVIDIA",
+        "summary": "OpenAI推出Ultrafast API服务层级，使用Cerebras芯片运行GPT-5.6 Sol，实现750 tokens/s、14倍标准模式速度，首次以Cerebras芯片提供商业化推理API。",
+        "source": "GlobeNewswire/OpenAI官方/凤凰科技/NotATechGuy",
+        "sourceUrl": "https://www.globenewswire.com/news-release/2026/08/13/3344804/0/en/cerebras-powers-ultrafast-mode-for-openai-s-gpt-5-6-sol.html",
         "tags": [
-          "OpenAI",
-          "AWS",
-          "Bedrock",
-          "网络安全",
-          "GPT-5.6",
-          "AI安全",
-          "Daybreak"
+            "OpenAI",
+            "Cerebras",
+            "Ultrafast",
+            "GPT-5.6",
+            "AI推理",
+            "API",
+            "推理加速"
         ],
-        "detail": "OpenAI网络安全防御项目Daybreak扩展上线Amazon Bedrock，向预批准安全机构客户开放两个访问层级：Daybreak Red提供GPT-5.6-Cyber专用模型用于漏洞研究和红队测试，Daybreak Blue基于GPT-5.6 Sol面向日常防御安全工作。这是OpenAI首次将专用AI安全模型上线主流云平台，用户需通过身份验证和用途审批。Daybreak Red面向高级安全研究（漏洞发现、利用开发、红队演练），Daybreak Blue面向日常安全运营团队。"
-      },
-      {
+        "detail": "OpenAI于8月13日推出Ultrafast API服务层级，使用Cerebras芯片（非NVIDIA GPU）运行GPT-5.6 Sol模型，实现最高750 output tokens/s、比标准模式快14倍的推理速度。该服务目前以有限预览方式面向API客户提供，主打延迟敏感的实时推理场景。这是OpenAI首次在商业化API层面大规模采用Cerebras替代NVIDIA GPU，标志着AI推理算力供应格局出现实质性变化。Ultrafast模式速度提升不牺牲输出质量，面向需要极低延迟的Agent和实时应用。"
+    },
+    {
+        "id": 1175,
+        "date": "2026-08-12",
+        "category": "cloud-vendor",
+        "categoryName": "云厂商动态",
+        "title": "AMD发布MI400系列GPU和Helios机架平台：获Anthropic/OpenAI/Meta超4GW容量承诺，打破NVIDIA垄断",
+        "summary": "AMD在Advancing AI 2026大会发布Instinct MI400系列（MI455X CDNA 5/台积电2nm/HBM4）和Helios开放机架平台，Anthropic承诺部署2GW，OpenAI和Meta各1GW。",
+        "source": "AMD官方/EE Times Asia/ServeTheHome/Benzinga/TopCPU",
+        "sourceUrl": "https://www.amd.com/en/blogs/2026/becoming-a-10x-productivity-engineer.html",
+        "tags": [
+            "AMD",
+            "MI455X",
+            "Helios",
+            "Anthropic",
+            "AI芯片",
+            "GPU",
+            "机架级",
+            "AI基础设施"
+        ],
+        "detail": "AMD在Advancing AI 2026大会发布Instinct MI400系列GPU和Helios开放机架级AI基础设施平台。旗舰MI455X采用CDNA 5架构、台积电2nm GAAFET工艺，集成320亿晶体管，配备HBM4内存，设计为72-GPU机架单元。同步发布的MI430X面向主权AI和HPC场景，FP64算力达288 TFLOPS。客户承诺规模突出：Anthropic计划部署最多2GW MI450系列（Helios机架，首个GW 2027H1上线），OpenAI和Meta各承诺1GW，Microsoft和Oracle也采用Helios。AMD与Anthropic启动多年工程合作，使用Claude优化AMD GPU工作负载并加速ROCm开发。Helios 9月起向制造合作伙伴发货组件。"
+    },
+    {
         "id": 1174,
         "date": "2026-08-12",
         "category": "cloud-vendor",
@@ -879,74 +893,57 @@
         "source": "36氪/中关村在线/财联社",
         "sourceUrl": "https://36kr.com/newsflashes/3935927510973575",
         "tags": [
-          "阿里云",
-          "超节点",
-          "AI算力",
-          "大模型",
-          "M890",
-          "灵骏",
-          "GPU"
+            "阿里云",
+            "超节点",
+            "AI算力",
+            "大模型",
+            "M890",
+            "灵骏",
+            "GPU"
         ],
         "detail": "阿里云发布灵骏真武M890超节点实例，提供64卡高速互联（800GB/s）算力单元，支持十万亿参数级MoE大模型推理，是国内首个成功运行超2万亿参数大模型的超节点形态算力。首批已在乌兰察布地域开售，Kimi K3和Qwen3.8 Max均已通过该实例对外提供服务。企业客户无需自建机房，在云上即可开通大规模算力单元。据悉，阿里云自研芯片平头哥的产能正在持续提升，未来在其算力体系中的占比将越来越高。"
-      },
-      {
-        "id": 1168,
-        "date": "2026-08-10",
-        "category": "industry",
-        "categoryName": "行业观察",
-        "title": "Anthropic与Riot Platforms达成91亿美元20年算力协议：德州191MW，比特币矿企转型AI基础设施",
-        "summary": "Anthropic与比特币矿企Riot Platforms签署91亿美元20年算力租赁协议，租用德州Rockdale园区191MW计算能力，合同至2048年，续约后总价值可达161亿美元。",
-        "source": "IT之家/CoinDesk/TheNextWeb",
-        "sourceUrl": "https://m.ithome.com/html/988216.htm",
+    },
+    {
+        "id": 1173,
+        "date": "2026-08-11",
+        "category": "ai-model",
+        "categoryName": "AI与大模型",
+        "title": "OpenAI Daybreak安全模型上线Amazon Bedrock：GPT-5.6-Cyber首次登陆主流云平台",
+        "summary": "OpenAI网络安全防御项目Daybreak扩展，Daybreak Red（含GPT-5.6-Cyber）和Daybreak Blue（含GPT-5.6 Sol）在Amazon Bedrock上向预批准安全机构客户开放。",
+        "source": "AWS官方/TechJournal/NeoDrop/TheLec",
+        "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/category/artificial-intelligence/amazon-machine-learning/amazon-bedrock/",
         "tags": [
-          "Anthropic",
-          "Riot Platforms",
-          "AI基础设施",
-          "数据中心",
-          "算力租赁",
-          "比特币挖矿"
+            "OpenAI",
+            "AWS",
+            "Bedrock",
+            "网络安全",
+            "GPT-5.6",
+            "AI安全",
+            "Daybreak"
         ],
-        "detail": "Anthropic与比特币矿企Riot Platforms签署价值91亿美元的算力租赁协议，租用Riot位于德州Rockdale园区的191MW计算能力，合同期限20年至2048年，若两次续约总价值可达161亿美元。该协议在Riot Q2财报中披露，消息公布后Riot股价暴涨25%。这是Anthropic继Theseus Infrastructure（与Macquarie/GIC合作DC平台）、Volta Infra（100亿美元挪威算力协议）之后又一笔重大基础设施交易。Riot作为北美最大上市比特币矿企之一，正加速从加密挖矿向AI基础设施提供商转型。"
-      },
-      {
-        "id": 1169,
+        "detail": "OpenAI网络安全防御项目Daybreak扩展上线Amazon Bedrock，向预批准安全机构客户开放两个访问层级：Daybreak Red提供GPT-5.6-Cyber专用模型用于漏洞研究和红队测试，Daybreak Blue基于GPT-5.6 Sol面向日常防御安全工作。这是OpenAI首次将专用AI安全模型上线主流云平台，用户需通过身份验证和用途审批。Daybreak Red面向高级安全研究（漏洞发现、利用开发、红队演练），Daybreak Blue面向日常安全运营团队。"
+    },
+    {
+        "id": 1172,
         "date": "2026-08-11",
         "category": "cloud-vendor",
         "categoryName": "云厂商动态",
-        "title": "IBM与Together AI签署2.4亿美元协议：IBM Cloud部署NVIDIA HGX B300大规模推理集群",
-        "summary": "IBM与Together AI签署2.4亿美元多年协议，在IBM Cloud部署NVIDIA HGX B300大规模推理集群，预计2027年Q1上线，配合NVIDIA Spectrum-X网络。",
-        "source": "IBM Newsroom/Nasdaq/TheNextWeb",
-        "sourceUrl": "https://newsroom.ibm.com/2026-08-11-IBM-and-Together-AI-Sign-Multi-Year-Agreement-to-Scale-Open-Source-AI-Inference-with-NVIDIA-AI-Infrastructure-on-IBM-Cloud",
+        "title": "OpenAI与AWS签署380亿美元7年AI云基础设施协议：数十万NVIDIA GPU，微软之外最大云算力扩展",
+        "summary": "OpenAI与AWS签署7年380亿美元协议，获取数十万NVIDIA GPU和数千万CPU用于AI训练和Agentic AI部署，首批算力目标2026年底前全部投入使用。",
+        "source": "AFP/TechShots/NextPulse/CoinStats",
+        "sourceUrl": "https://www.standardmedia.co.ke/health/health/article/2001533567/openai-signs-38-bn-infrastructure-deal-with-cloud-giant-aws",
         "tags": [
-          "IBM",
-          "Together AI",
-          "NVIDIA",
-          "HGX B300",
-          "推理",
-          "开源模型"
+            "OpenAI",
+            "AWS",
+            "AI基础设施",
+            "NVIDIA",
+            "GPU",
+            "算力",
+            "云基础设施"
         ],
-        "detail": "IBM与Together AI签署2.4亿美元多年协议，将在IBM Cloud部署NVIDIA HGX B300系统大规模推理集群，预计2027年Q1上线。这是IBM Cloud首个基于HGX B300的专用推理集群，配合NVIDIA Spectrum-X网络，据NVIDIA称AI工厂产出较上代提升30倍。Together AI近期以83亿美元估值完成8亿美元C轮融资，月处理400万亿token，此次选择IBM Cloud看重其企业级合规能力，面向受监管行业客户。"
-      },
-      {
-        "id": 1170,
-        "date": "2026-08-11",
-        "category": "cloud-vendor",
-        "categoryName": "云厂商动态",
-        "title": "微软计划9月发布Maia 300 AI芯片：与TSMC协商30万+产能，Maia 200成本比NVIDIA低30-40%",
-        "summary": "据Reuters/The Information报道，微软计划最早9月发布Maia 300加速器，正与TSMC协商2027年超30万颗产能，Maia 200运营成本比NVIDIA最新芯片低30%-40%。",
-        "source": "TrendForce/eWeek/TechDogs",
-        "sourceUrl": "https://www.trendforce.com/news/2026/08/11/news-microsoft-eyes-maia-300-launch-in-sep-reportedly-seeks-300k-tsmc-capacity-as-google-aws-race-ahead/",
-        "tags": [
-          "Microsoft",
-          "Maia 300",
-          "Maia 200",
-          "AI芯片",
-          "TSMC",
-          "自研芯片"
-        ],
-        "detail": "据Reuters和The Information报道，微软计划最早9月公开发布下一代自研AI芯片Maia 300加速器，正与TSMC协商2027年超30万颗产能。同时，微软CEO纳德拉在Q4财报电话会上透露，当前一代Maia 200（基于TSMC 3nm工艺）运行OpenAI和微软模型的运营成本比NVIDIA最新芯片低30%-40%。微软还计划将Maia芯片供应给Anthropic等外部客户，试图从Azure自用扩展到外部云服务市场。"
-      },
-      {
+        "detail": "OpenAI与AWS签署7年380亿美元云基础设施协议，将获得数十万NVIDIA GPU和数千万CPU用于AI训练和Agentic AI部署。这是OpenAI在微软之外最大规模的云算力扩展，协议期内容量将持续增长，首批算力目标在2026年底前全部投入使用。Sam Altman表示：\"扩展前沿AI需要大规模、可靠的算力，与AWS的合作增强了驱动下一时代的广泛算力生态。\"该交易标志着AI巨头进一步分散云算力供应商风险，AWS在AI云基础设施市场的竞争力持续增强。"
+    },
+    {
         "id": 1171,
         "date": "2026-08-11",
         "category": "industry",
@@ -956,94 +953,74 @@
         "source": "OCP官方/NVIDIA博客/电子工程专辑",
         "sourceUrl": "https://www.opencompute.org/blog/powering-the-next-era-of-ai-how-google-microsoft-and-nvidia-are-standardizing-and-accelerating-the-industry-transition-to-lvdc",
         "tags": [
-          "Google",
-          "Microsoft",
-          "NVIDIA",
-          "OCP",
-          "800VDC",
-          "数据中心",
-          "电力架构"
+            "Google",
+            "Microsoft",
+            "NVIDIA",
+            "OCP",
+            "800VDC",
+            "数据中心",
+            "电力架构"
         ],
         "detail": "Google、Microsoft和NVIDIA在OCP（开放计算项目）内联合宣布建立800 VDC（800伏直流）作为下一代AI数据中心的开放标准化电力架构。随着AI服务器单机柜功耗从几十千瓦飙升至兆瓦级，传统交流+54V低压配电体系受电流损耗、空间和散热三重限制已无法适配。800VDC架构可减少电力转换层级、降低损耗，三大巨头联手推动标准化意味着该方案有望成为行业统一方向。"
-      },
-      {
-        "id": 1163,
-        "date": "2026-08-10",
-        "category": "industry",
-        "categoryName": "行业观察",
-        "title": "NVIDIA联合华尔街六大巨头设立5000亿美元AI算力融资平台：Apollo、BlackRock、Blackstone、Brookfield、Goldman Sachs、KKR参建",
-        "summary": "NVIDIA与六大金融巨头签署谅解备忘录，建立独立AI算力融资平台，计划调动超5000亿美元第三方资本，黄仁勋称\"计算首次成为可投资资产类别\"。",
-        "source": "NVIDIA官方/CoinDesk/界面新闻",
-        "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-partners-with-apollo-blackrock-blackstone-brookfield-goldman-sachs-and-kkr-to-establish-ai-compute-infrastructure-financing-platforms-to-mobilize-over-500-billion-of-third-party-capital",
-        "tags": [
-          "NVIDIA",
-          "AI基础设施",
-          "融资",
-          "Apollo",
-          "BlackRock",
-          "Blackstone",
-          "Goldman Sachs",
-          "KKR",
-          "算力金融化"
-        ],
-        "detail": "NVIDIA于8月10日宣布与Apollo、BlackRock、Blackstone、Brookfield、Goldman Sachs和KKR六家全球顶级金融机构签署谅解备忘录，建立独立的AI算力融资平台，计划逐步调动超5000亿美元第三方资本用于AI基础设施建设。NVIDIA CEO黄仁勋表示：\"计算首次成为可投资资产类别，NVIDIA计算通过CUDA软件生态具有最低token成本、最高收入和最长使用寿命。\"这意味着全球AI基础设施建设将从传统的直接采购模式，转向由金融资本驱动的长期融资模式，NVIDIA正在将自己从芯片供应商转型为AI基础设施金融生态的核心。"
-      },
-      {
-        "id": 1164,
-        "date": "2026-08-10",
-        "category": "industry",
-        "categoryName": "行业观察",
-        "title": "Anthropic成立Theseus Infrastructure合资企业：与Macquarie和GIC合作建设AI专用数据中心",
-        "summary": "Anthropic与Macquarie Asset Management和新加坡主权基金GIC成立Theseus Infrastructure平台，Anthropic作为锚定租户签署长期租赁，初期聚焦美国市场。",
-        "source": "BusinessWire/AI Tools Recap/IT之家",
-        "sourceUrl": "https://kessler-prod.reta52d8.eas.morningstar.com/news/business-wire/20260809882025/anthropic-macquarie-asset-management-and-gic-announce-strategic-partnership-to-develop-dedicated-data-center-infrastructure-at-scale",
-        "tags": [
-          "Anthropic",
-          "数据中心",
-          "Macquarie",
-          "GIC",
-          "Theseus Infrastructure",
-          "AI基础设施"
-        ],
-        "detail": "Anthropic与Macquarie Asset Management和新加坡主权财富基金GIC宣布战略合作，成立Theseus Infrastructure平台，开发运营为Anthropic Claude需求定制的AI基础设施。Macquarie和GIC持有大部分股权，Anthropic作为锚定租户签署长期租赁协议，初期聚焦美国市场，将承担100%的电网升级成本并覆盖消费者电价上涨。这标志着Anthropic从依赖AWS/Azure等超大规模云厂商转向自主掌控基础设施的新战略方向，继Volta 100亿美元协议后再次加码算力独立。"
-      },
-      {
-        "id": 1165,
-        "date": "2026-08-10",
+    },
+    {
+        "id": 1170,
+        "date": "2026-08-11",
         "category": "cloud-vendor",
         "categoryName": "云厂商动态",
-        "title": "阿里云模块化数据中心全球产能翻倍：AIDC交付周期缩短至100天，建设成本降低10%以上",
-        "summary": "阿里云宣布将模块化数据中心全球产能提升两倍以上，大型AIDC交付周期缩短至100天（国内传统6-12个月），整体建设成本降低10%以上。",
-        "source": "China Daily/Chain Catcher/AASTOCKS",
-        "sourceUrl": "https://www.chinadaily.com.cn/a/202608/10/WS6a79ce0fa310986e2b469fb5.html",
+        "title": "微软计划9月发布Maia 300 AI芯片：与TSMC协商30万+产能，Maia 200成本比NVIDIA低30-40%",
+        "summary": "据Reuters/The Information报道，微软计划最早9月发布Maia 300加速器，正与TSMC协商2027年超30万颗产能，Maia 200运营成本比NVIDIA最新芯片低30%-40%。",
+        "source": "TrendForce/eWeek/TechDogs",
+        "sourceUrl": "https://www.trendforce.com/news/2026/08/11/news-microsoft-eyes-maia-300-launch-in-sep-reportedly-seeks-300k-tsmc-capacity-as-google-aws-race-ahead/",
         "tags": [
-          "阿里云",
-          "数据中心",
-          "模块化",
-          "AI基础设施",
-          "AIDC"
+            "Microsoft",
+            "Maia 300",
+            "Maia 200",
+            "AI芯片",
+            "TSMC",
+            "自研芯片"
         ],
-        "detail": "阿里云宣布将自研模块化数据中心全球产能提升两倍以上。大型AI数据中心（AIDC）交付周期缩短至100天——国内传统交付周期为6至12个月，美国为12至18个月。全模块化设计实现各环节并行生产，工厂制造预调试至集装箱内，运抵现场像搭积木一样吊装组装，整体建设成本降低10%以上。此举直接回应AI算力需求爆发式增长对基础设施快速交付的刚性需求，展现中国云计算厂商在数据中心工程领域的创新能力。"
-      },
-      {
-        "id": 1166,
+        "detail": "据Reuters和The Information报道，微软计划最早9月公开发布下一代自研AI芯片Maia 300加速器，正与TSMC协商2027年超30万颗产能。同时，微软CEO纳德拉在Q4财报电话会上透露，当前一代Maia 200（基于TSMC 3nm工艺）运行OpenAI和微软模型的运营成本比NVIDIA最新芯片低30%-40%。微软还计划将Maia芯片供应给Anthropic等外部客户，试图从Azure自用扩展到外部云服务市场。"
+    },
+    {
+        "id": 1169,
+        "date": "2026-08-11",
+        "category": "cloud-vendor",
+        "categoryName": "云厂商动态",
+        "title": "IBM与Together AI签署2.4亿美元协议：IBM Cloud部署NVIDIA HGX B300大规模推理集群",
+        "summary": "IBM与Together AI签署2.4亿美元多年协议，在IBM Cloud部署NVIDIA HGX B300大规模推理集群，预计2027年Q1上线，配合NVIDIA Spectrum-X网络。",
+        "source": "IBM Newsroom/Nasdaq/TheNextWeb",
+        "sourceUrl": "https://newsroom.ibm.com/2026-08-11-IBM-and-Together-AI-Sign-Multi-Year-Agreement-to-Scale-Open-Source-AI-Inference-with-NVIDIA-AI-Infrastructure-on-IBM-Cloud",
+        "tags": [
+            "IBM",
+            "Together AI",
+            "NVIDIA",
+            "HGX B300",
+            "推理",
+            "开源模型"
+        ],
+        "detail": "IBM与Together AI签署2.4亿美元多年协议，将在IBM Cloud部署NVIDIA HGX B300系统大规模推理集群，预计2027年Q1上线。这是IBM Cloud首个基于HGX B300的专用推理集群，配合NVIDIA Spectrum-X网络，据NVIDIA称AI工厂产出较上代提升30倍。Together AI近期以83亿美元估值完成8亿美元C轮融资，月处理400万亿token，此次选择IBM Cloud看重其企业级合规能力，面向受监管行业客户。"
+    },
+    {
+        "id": 1168,
         "date": "2026-08-10",
-        "category": "cloud-native",
-        "categoryName": "云原生",
-        "title": "Cloudflare获得FedRAMP High认证：进入美国联邦政府高安全云服务市场，将申请DoD IL4",
-        "summary": "Cloudflare for Government获FedRAMP High认证和GovRAMP Moderate授权，可处理国家安全和金融系统敏感数据，超100个联邦机构已使用，并宣布将申请DoD IL4授权。",
-        "source": "Cloudflare官方/Nextgov/Insider Monkey",
-        "sourceUrl": "https://www.cloudflare.com/nl-nl/press/press-releases/2026/cloudflare-achieves-fedramp-high-authorization-to-secure-and-accelerate-the-u-s-governments-critical-missions/",
+        "category": "industry",
+        "categoryName": "行业观察",
+        "title": "Anthropic与Riot Platforms达成91亿美元20年算力协议：德州191MW，比特币矿企转型AI基础设施",
+        "summary": "Anthropic与比特币矿企Riot Platforms签署91亿美元20年算力租赁协议，租用德州Rockdale园区191MW计算能力，合同至2048年，续约后总价值可达161亿美元。",
+        "source": "IT之家/CoinDesk/TheNextWeb",
+        "sourceUrl": "https://m.ithome.com/html/988216.htm",
         "tags": [
-          "Cloudflare",
-          "FedRAMP",
-          "政府云",
-          "安全认证",
-          "DoD"
+            "Anthropic",
+            "Riot Platforms",
+            "AI基础设施",
+            "数据中心",
+            "算力租赁",
+            "比特币挖矿"
         ],
-        "detail": "Cloudflare for Government获得FedRAMP High认证和GovRAMP Moderate授权，可处理涉及国家安全、关键基础设施和金融系统的敏感数据，数据在美国境内15个都市区处理。目前已有超100个联邦机构使用Cloudflare服务，包括商务部、能源部、国土安全部、司法部和国务院。Cloudflare同时宣布将使用FedRAMP High建设的新系统作为基础，申请国防部Impact Level 4（DoD IL4）授权，将平台能力延伸至国防领域。这是Cloudflare从商业CDN向政府高安全云服务市场的重大战略拓展。"
-      },
-      {
+        "detail": "Anthropic与比特币矿企Riot Platforms签署价值91亿美元的算力租赁协议，租用Riot位于德州Rockdale园区的191MW计算能力，合同期限20年至2048年，若两次续约总价值可达161亿美元。该协议在Riot Q2财报中披露，消息公布后Riot股价暴涨25%。这是Anthropic继Theseus Infrastructure（与Macquarie/GIC合作DC平台）、Volta Infra（100亿美元挪威算力协议）之后又一笔重大基础设施交易。Riot作为北美最大上市比特币矿企之一，正加速从加密挖矿向AI基础设施提供商转型。"
+    },
+    {
         "id": 1167,
         "date": "2026-08-10",
         "category": "cloud-native",
@@ -1053,16 +1030,93 @@
         "source": "Cloudflare Blog/4sysops/IBTimes UK",
         "sourceUrl": "https://blog.cloudflare.com/agents-week-review-august-2026/",
         "tags": [
-          "Cloudflare",
-          "AI Agent",
-          "Agent基础设施",
-          "Wallets",
-          "Kitesurf",
-          "ADLC"
+            "Cloudflare",
+            "AI Agent",
+            "Agent基础设施",
+            "Wallets",
+            "Kitesurf",
+            "ADLC"
         ],
         "detail": "Cloudflare在Agents Week 2026（8月4日-10日）密集发布超30个AI Agent产品与功能，提出\"Cloud 2.0 Agentic云\"概念。核心发布包括：Agent Development Lifecycle（ADLC，替代传统SDLC）、Cloudflare Agents（Agent构建、监控与人工审批平台）、Cloudflare Wallets（Agent可编程钱包，支持稳定币支付，可配置消费限额）、Kitesurf（Agent原生浏览器运行时，12周从零构建）、@cloudflare/computer（Agent计算原语，分离模型推理与工具执行）、cloudflare.pay永久身份（帮助商家验证Agent授权）。这是云基础设施平台首次系统性地向Agent基础设施全栈转型，标志着云行业正从\"为人类提供基础设施\"向\"为Agent提供基础设施\"演进。"
-      },
-      {
+    },
+    {
+        "id": 1166,
+        "date": "2026-08-10",
+        "category": "cloud-native",
+        "categoryName": "云原生",
+        "title": "Cloudflare获得FedRAMP High认证：进入美国联邦政府高安全云服务市场，将申请DoD IL4",
+        "summary": "Cloudflare for Government获FedRAMP High认证和GovRAMP Moderate授权，可处理国家安全和金融系统敏感数据，超100个联邦机构已使用，并宣布将申请DoD IL4授权。",
+        "source": "Cloudflare官方/Nextgov/Insider Monkey",
+        "sourceUrl": "https://www.cloudflare.com/nl-nl/press/press-releases/2026/cloudflare-achieves-fedramp-high-authorization-to-secure-and-accelerate-the-u-s-governments-critical-missions/",
+        "tags": [
+            "Cloudflare",
+            "FedRAMP",
+            "政府云",
+            "安全认证",
+            "DoD"
+        ],
+        "detail": "Cloudflare for Government获得FedRAMP High认证和GovRAMP Moderate授权，可处理涉及国家安全、关键基础设施和金融系统的敏感数据，数据在美国境内15个都市区处理。目前已有超100个联邦机构使用Cloudflare服务，包括商务部、能源部、国土安全部、司法部和国务院。Cloudflare同时宣布将使用FedRAMP High建设的新系统作为基础，申请国防部Impact Level 4（DoD IL4）授权，将平台能力延伸至国防领域。这是Cloudflare从商业CDN向政府高安全云服务市场的重大战略拓展。"
+    },
+    {
+        "id": 1165,
+        "date": "2026-08-10",
+        "category": "cloud-vendor",
+        "categoryName": "云厂商动态",
+        "title": "阿里云模块化数据中心全球产能翻倍：AIDC交付周期缩短至100天，建设成本降低10%以上",
+        "summary": "阿里云宣布将模块化数据中心全球产能提升两倍以上，大型AIDC交付周期缩短至100天（国内传统6-12个月），整体建设成本降低10%以上。",
+        "source": "China Daily/Chain Catcher/AASTOCKS",
+        "sourceUrl": "https://www.chinadaily.com.cn/a/202608/10/WS6a79ce0fa310986e2b469fb5.html",
+        "tags": [
+            "阿里云",
+            "数据中心",
+            "模块化",
+            "AI基础设施",
+            "AIDC"
+        ],
+        "detail": "阿里云宣布将自研模块化数据中心全球产能提升两倍以上。大型AI数据中心（AIDC）交付周期缩短至100天——国内传统交付周期为6至12个月，美国为12至18个月。全模块化设计实现各环节并行生产，工厂制造预调试至集装箱内，运抵现场像搭积木一样吊装组装，整体建设成本降低10%以上。此举直接回应AI算力需求爆发式增长对基础设施快速交付的刚性需求，展现中国云计算厂商在数据中心工程领域的创新能力。"
+    },
+    {
+        "id": 1164,
+        "date": "2026-08-10",
+        "category": "industry",
+        "categoryName": "行业观察",
+        "title": "Anthropic成立Theseus Infrastructure合资企业：与Macquarie和GIC合作建设AI专用数据中心",
+        "summary": "Anthropic与Macquarie Asset Management和新加坡主权基金GIC成立Theseus Infrastructure平台，Anthropic作为锚定租户签署长期租赁，初期聚焦美国市场。",
+        "source": "BusinessWire/AI Tools Recap/IT之家",
+        "sourceUrl": "https://kessler-prod.reta52d8.eas.morningstar.com/news/business-wire/20260809882025/anthropic-macquarie-asset-management-and-gic-announce-strategic-partnership-to-develop-dedicated-data-center-infrastructure-at-scale",
+        "tags": [
+            "Anthropic",
+            "数据中心",
+            "Macquarie",
+            "GIC",
+            "Theseus Infrastructure",
+            "AI基础设施"
+        ],
+        "detail": "Anthropic与Macquarie Asset Management和新加坡主权财富基金GIC宣布战略合作，成立Theseus Infrastructure平台，开发运营为Anthropic Claude需求定制的AI基础设施。Macquarie和GIC持有大部分股权，Anthropic作为锚定租户签署长期租赁协议，初期聚焦美国市场，将承担100%的电网升级成本并覆盖消费者电价上涨。这标志着Anthropic从依赖AWS/Azure等超大规模云厂商转向自主掌控基础设施的新战略方向，继Volta 100亿美元协议后再次加码算力独立。"
+    },
+    {
+        "id": 1163,
+        "date": "2026-08-10",
+        "category": "industry",
+        "categoryName": "行业观察",
+        "title": "NVIDIA联合华尔街六大巨头设立5000亿美元AI算力融资平台：Apollo、BlackRock、Blackstone、Brookfield、Goldman Sachs、KKR参建",
+        "summary": "NVIDIA与六大金融巨头签署谅解备忘录，建立独立AI算力融资平台，计划调动超5000亿美元第三方资本，黄仁勋称\"计算首次成为可投资资产类别\"。",
+        "source": "NVIDIA官方/CoinDesk/界面新闻",
+        "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-partners-with-apollo-blackrock-blackstone-brookfield-goldman-sachs-and-kkr-to-establish-ai-compute-infrastructure-financing-platforms-to-mobilize-over-500-billion-of-third-party-capital",
+        "tags": [
+            "NVIDIA",
+            "AI基础设施",
+            "融资",
+            "Apollo",
+            "BlackRock",
+            "Blackstone",
+            "Goldman Sachs",
+            "KKR",
+            "算力金融化"
+        ],
+        "detail": "NVIDIA于8月10日宣布与Apollo、BlackRock、Blackstone、Brookfield、Goldman Sachs和KKR六家全球顶级金融机构签署谅解备忘录，建立独立的AI算力融资平台，计划逐步调动超5000亿美元第三方资本用于AI基础设施建设。NVIDIA CEO黄仁勋表示：\"计算首次成为可投资资产类别，NVIDIA计算通过CUDA软件生态具有最低token成本、最高收入和最长使用寿命。\"这意味着全球AI基础设施建设将从传统的直接采购模式，转向由金融资本驱动的长期融资模式，NVIDIA正在将自己从芯片供应商转型为AI基础设施金融生态的核心。"
+    },
+    {
         "id": 1160,
         "date": "2026-08-08",
         "category": "industry",
@@ -1072,55 +1126,18 @@
         "source": "NVIDIA官方博客/TheNextWeb/亚美尼亚总理官网/UNITE.AI",
         "sourceUrl": "https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/",
         "tags": [
-          "Firebird",
-          "NVIDIA",
-          "CoreWeave",
-          "AI工厂",
-          "数据中心",
-          "亚美尼亚",
-          "Rubin",
-          "Blackwell"
+            "Firebird",
+            "NVIDIA",
+            "CoreWeave",
+            "AI工厂",
+            "数据中心",
+            "亚美尼亚",
+            "Rubin",
+            "Blackwell"
         ],
         "detail": "AI云公司Firebird于8月8日在亚美尼亚Hrazdan正式启动CIS地区最大AI工厂，基于NVIDIA加速计算和Dell PowerEdge服务器构建。采用NVIDIA DSX平台可在相同物理空间多运行40% GPU。亚美尼亚总理帕什尼扬、哈萨克斯坦副总理马季耶夫、美国临时代办艾伦共同出席启用仪式。Firebird计划到2027年底在亚美尼亚部署超70000颗NVIDIA Rubin和Blackwell GPU，总AI基础设施容量达300MW。NVIDIA宣布将投资Firebird，此前CoreWeave已完成对Firebird的早期投资。公司联合创始人表示未来两年全球目标约2GW AI基础设施容量，重点拓展前沿市场。两期项目总投资预计达50亿美元。Schneider Electric提供电力基础设施，Vertiv提供冷却方案。"
-      },
-      {
-        "id": 1161,
-        "date": "2026-08-07",
-        "category": "industry",
-        "categoryName": "行业观察",
-        "title": "DeepSeek重启约80亿美元融资轮：估值达740亿美元，预计8月底签约",
-        "summary": "DeepSeek重启第二轮约80亿美元融资，投后估值约740亿美元，预计8月底完成签约，同时投资机器人公司宇树科技（Unitree）。",
-        "source": "朝鲜日报英文版/Gigazine/EqualOcean",
-        "sourceUrl": "https://www.chosun.com/english/world-en/2026/08/07/325XRRH2KVFJ7M26K4QNS73YGA/",
-        "tags": [
-          "DeepSeek",
-          "融资",
-          "估值",
-          "宇树科技",
-          "AI基础设施",
-          "IPO"
-        ],
-        "detail": "据Bloomberg和多家财经媒体报道，DeepSeek已重启第二轮约80亿美元（约560亿人民币）融资，投后估值约740亿美元（约5000亿人民币），预计2026年8月底完成签约。此前DeepSeek在6月曾暂停融资谈判。同时DeepSeek投资了机器人公司宇树科技（Unitree），反映其正从纯AI模型公司向更广泛的AI+机器人生态扩展。融资将主要用于大规模数据中心基础设施建设。"
-      },
-      {
-        "id": 1162,
-        "date": "2026-08-07",
-        "category": "ai-model",
-        "categoryName": "AI与大模型",
-        "title": "DeepSeek宣布大幅上调API定价：20000 GPU集群因需求暴涨崩溃，告别超低价时代",
-        "summary": "DeepSeek宣布大幅上调API服务定价（此前V4-Flash输出2元/百万Token），20000 GPU集群因需求暴涨崩溃，标志从价格屠夫转向可持续盈利模式。",
-        "source": "Gigazine/Geeknetic/HWupgrade",
-        "sourceUrl": "https://gigazine.net/gsc_news/en/20260807-deepseek-raise-prices/",
-        "tags": [
-          "DeepSeek",
-          "API定价",
-          "GPU",
-          "需求暴涨",
-          "AI推理成本"
-        ],
-        "detail": "DeepSeek于8月6日通过开放平台发布公告，计划近期整体大幅上调API服务定价。此前V4-Flash输出价格为2元/百万Token、V4-Pro为6元/百万Token（平峰时段）。涨价背景是其20000 GPU集群因需求暴涨发生崩溃。具体新价格方案尚未公布。分析认为这标志着DeepSeek从价格屠夫转向可持续盈利模式，结束AI推理超低价竞争时代。此前DeepSeek以极低定价策略迫使整个行业降价，其涨价信号意味着AI推理成本底部可能已经形成。"
-      },
-      {
+    },
+    {
         "id": 1157,
         "date": "2026-08-08",
         "category": "industry",
@@ -1130,56 +1147,17 @@
         "source": "界面新闻/财联社/新浪财经/The Information",
         "sourceUrl": "https://www.jiemian.com/article/14894312.html",
         "tags": [
-          "NVIDIA",
-          "Lancium",
-          "Blackstone",
-          "Stargate",
-          "数据中心",
-          "电力基础设施",
-          "AI基础设施"
+            "NVIDIA",
+            "Lancium",
+            "Blackstone",
+            "Stargate",
+            "数据中心",
+            "电力基础设施",
+            "AI基础设施"
         ],
         "detail": "英伟达同意向电力基础设施开发商Lancium投资最高30亿美元——首期20亿美元获取20%股权，若Lancium达到规划电力资源阈值后追加10亿美元。此次交易对Lancium及其土地和电力连接资产的企业价值估值约100亿美元（含投资金额及债务）。Lancium由黑石集团支持，负责为Stargate项目开发位于得克萨斯州的电力基础设施。英伟达此举意在从电力源头锁定AI数据中心算力扩张所需的能源保障，是其继GPU供应外进一步深入AI基础设施全产业链布局的标志性举措。"
-      },
-      {
-        "id": 1158,
-        "date": "2026-08-07",
-        "category": "ai-model",
-        "categoryName": "AI与大模型",
-        "title": "OpenAI因Astra模型触及Critical网络安全风险暂停开发：首个达到最高风险级别的模型",
-        "summary": "OpenAI宣布Astra模型可能达到Preparedness Framework中Critical级别网络安全能力（可自主发现零日漏洞），暂停部分开发活动，迁移至隔离测试环境并加强安全控制。",
-        "source": "OpenAI官方/CNA Reuters/The AI Career Lab",
-        "sourceUrl": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
-        "tags": [
-          "OpenAI",
-          "Astra",
-          "AI安全",
-          "网络安全",
-          "Critical",
-          "Preparedness Framework"
-        ],
-        "detail": "OpenAI发布声明称，内部评估和外部专家判断显示其即将发布的Astra模型可能达到Preparedness Framework中Critical级别网络安全能力——即可自主识别和利用真实系统零日漏洞、端到端执行复杂网络攻击。这是OpenAI旗下首个可能达到Critical级别的模型（此前GPT-5.6-Sol仅评为High级别）。OpenAI已暂停不符合新安全控制要求的Astra相关开发活动，将开发迁移至隔离测试环境，实施增强监控（评估模型Chain of Thought并触发安全响应），同时将与政府机构和AI安全组织合作测试。OpenAI澄清Astra未参与Hugging Face黑客事件。"
-      },
-      {
-        "id": 1159,
-        "date": "2026-08-07",
-        "category": "industry",
-        "categoryName": "行业观察",
-        "title": "澳大利亚AI基础设施公司Firmus完成20亿美元融资：估值翻倍至105亿美元，英伟达黑石参投",
-        "summary": "Firmus完成20亿美元战略股权融资（全额认购），估值突破105亿美元，英伟达和Coatue跟投，黑石基金和Jane Street新加入，过去一年累计融资超30亿美元。",
-        "source": "The Next Web/Business News Australia/TechStartups",
-        "sourceUrl": "https://thenextweb.com/news/firmus-2bn-raise-valuation-10-5bn-ai-data-centre",
-        "tags": [
-          "Firmus",
-          "NVIDIA",
-          "Blackstone",
-          "Coatue",
-          "Jane Street",
-          "AI基础设施",
-          "数据中心",
-          "融资"
-        ],
-        "detail": "澳大利亚AI基础设施公司Firmus宣布完成20亿美元战略股权融资（全额认购），估值突破105亿美元，较4个月前的55亿美元估值翻倍。英伟达和Coatue继续跟投，黑石旗下Tactical Opportunities基金和量化交易公司Jane Street新加入。过去一年Firmus累计融资超30亿美元。Firmus主要设计、建设和运营GPU驱动的AI数据中心（AI工厂），融资将用于加速澳大利亚及亚太地区的AI工厂布局。英伟达的持续参投尤为值得关注——该公司极少在没有战略意图的情况下进行投资。"
-      }
+    }
+]
     ]
   ]
 ]
